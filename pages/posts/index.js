@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AllPostsPage () {
+function AllPostsPage () {
   return (
     <div>
       

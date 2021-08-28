@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function HomePage () {
   return (
-    <div>
-      
-    </div>
+    <Fragment>
+      <Hero />
+      <FeaturedPosts />      
+    </Fragment>
   )
 }
 
 export default HomePage;
+
+// 1. Hero section
+// 2. Featured Posts
