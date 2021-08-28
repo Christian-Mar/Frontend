@@ -1,0 +1,1 @@
+{"ast":null,"code":"function Logo() {}","map":{"version":3,"sources":["/Users/christianmarginet/Documents/next-Frontend/components/layout/logo.js"],"names":["Logo"],"mappings":"AAAA,SAASA,IAAT,GAAgB,CAEf","sourcesContent":["function Logo() {\n  \n}"]},"metadata":{},"sourceType":"script"}

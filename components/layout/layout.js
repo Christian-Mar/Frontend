@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import MainNavigation from './main-navigation';
 
-function Layout () {
+function Layout (props) {
   return (
     <Fragment>
       <MainNavigation/>

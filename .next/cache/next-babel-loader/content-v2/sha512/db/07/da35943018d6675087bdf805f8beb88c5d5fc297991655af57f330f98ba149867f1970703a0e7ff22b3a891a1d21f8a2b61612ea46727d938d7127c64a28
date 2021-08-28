@@ -1,0 +1,1 @@
+{"ast":null,"code":"function Logo() {}\n\nexport default Logo;","map":{"version":3,"sources":["/Users/christianmarginet/Documents/next-Frontend/components/layout/logo.js"],"names":["Logo"],"mappings":"AAAA,SAASA,IAAT,GAAgB,CAEf;;AAED,eAAeA,IAAf","sourcesContent":["function Logo() {\n\n}\n\nexport default Logo;"]},"metadata":{},"sourceType":"module"}
