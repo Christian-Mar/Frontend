@@ -10,11 +10,9 @@ function MainNavigation() {
 			<nav>
 				<ul>
 					<li>
-						<Link href='/posts'>Notities</Link>
+						<Link href='/posts'>Alle notities</Link>
 					</li>
-					<li>
-						<Link href='/links'>Links</Link>
-					</li>
+					
 					<li>
 						<Link href='/contact'>Contact</Link>
 					</li>
