@@ -6,14 +6,14 @@ function Hero() {
 		<section className={classes.hero}>
 			<div className={classes.image}>
 				<Image
-					src='/images/site/user.png'
+					src='/images/site/profileImg.png'
 					alt='profielfoto'
 					width={300}
 					height={300}
 				/>
 			</div>
 			<h1>Christian Marginet</h1>
-			<p>2e jaar Frontend developper - Syntra Gent</p>
+			<p>2e jaar Frontend developer - Syntra Gent</p>
 		</section>
 	);
 }
