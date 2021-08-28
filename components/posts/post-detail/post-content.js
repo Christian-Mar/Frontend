@@ -29,8 +29,10 @@ function PostContent(props) {
 						<Image
 							src={`/images/posts/${post.slug}/${image.properties.src}`}
 							alt={image.alt}
+              //layout='fill'
+              //objectFit='contain'
 							width={600}
-							heigth={300}
+							height={300}
 						/>
 					</div>
 				);

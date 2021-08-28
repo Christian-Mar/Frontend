@@ -27,6 +27,6 @@ Much More
 
 ## File-based Routing
 
-"![Create routes via your file](nextjs-file-based-routing.png)"
+![Create routes via your file](nextjs-file-based-routing.png)
 
 ... More content ...
