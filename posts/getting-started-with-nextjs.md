@@ -1,8 +1,8 @@
 ---
 title: Starting with Next.js
 excerpt: React on speed
-image: getting-started-nextjs.jpg
-isFeatured: true
+image: memo_next.jpg
+isFeatured: false
 date: '2021-10-14'
 ---
 

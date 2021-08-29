@@ -2,22 +2,14 @@ import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import PostHeader from './post-header';
 import classes from './post-content.module.css';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'; 
+import { ghcolors } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 function PostContent(props) {
 	const { post } = props;
 	const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
 	const customRenderers = {
-		/* img(image) {
-			return (
-				<Image
-					src={`/images/posts/${post.slug}/${image.src}`}
-					alt={image.alt}
-					width={600}
-					heigth={300}
-				/>
-			);
-		}, */
 		p(paragraph) {
 			const { node } = paragraph;
 
@@ -39,20 +31,23 @@ function PostContent(props) {
 			}
       return <p>{paragraph.children}</p>
 		},
-	};
-/*
+	
+
   code(code) {
       const { className, children } = code;
-      const language = className.split('-')[1]; // className is something like language-js => We need the "js" part here
+      const language = className.split('-')[1]; 
+      // language is hier JS, HTML, ... bijvoorbeeld
       return (
-        <SyntaxHighlighter
-          style={atomDark}
-          language={language}
-          children={children}
-        />
-      );
-    }
-*/
+				<SyntaxHighlighter
+					style={ghcolors}
+					language={language}
+					children={children}
+				/>
+			);
+    },
+  };
+  
+
 	return (
 		<article className={classes.content}>
 			<PostHeader title={post.title} image={imagePath} />

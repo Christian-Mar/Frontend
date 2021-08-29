@@ -19,8 +19,8 @@
 
 .header img {
   object-fit: cover;
-  width: 200px;
-  height: 120px;
+  width: 300px;
+  height: 150px;
 }
 
 @media (min-width: 768px) {
