@@ -54,8 +54,8 @@
 .form button {
   font: inherit;
   cursor: pointer;
-  background-color: #f72585;
-  border: 1px solid#f72585;
+  background-color: black;
+  border: 1px solid black;
   padding: var(--size-2) var(--size-4);
   border-radius: 4px;
   color: white;
@@ -63,8 +63,8 @@
 }
 
 .form button:hover {
-  background-color: var(--color-primary-500);
-  border-color: var(--color-primary-500);
+  background-color: var(--color-grey-700);
+  border-color: var(--color-grey-700);
 }
 
 @media (min-width: 768px) {

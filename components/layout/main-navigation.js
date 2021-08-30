@@ -18,7 +18,9 @@ function MainNavigation() {
 					<li>
 						<Link href='/posts'>Alle notities</Link>
 					</li>
-
+					<li>
+						<Link href='/links'>Links</Link>
+					</li>
 					<li>
 						<Link href='/contact'>Contact</Link>
 					</li>
@@ -27,7 +29,9 @@ function MainNavigation() {
 							href='https://github.com/Christian-Mar'
 							target='_blank'
 							rel='noopener noreferrer'
-						> <span>GitHub </span> 
+						>
+							{' '}
+							<span>GitHub </span>
 							<FontAwesomeIcon
 								icon={faGithub}
 								className={classes.icon}

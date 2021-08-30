@@ -5,4 +5,4 @@ function ContactPage () {
   return <ContactForm />
 }
 
-export default ContactPage
+export default ContactPage;
