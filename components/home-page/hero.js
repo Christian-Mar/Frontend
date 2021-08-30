@@ -12,8 +12,9 @@ function Hero() {
 					height={300}
 				/>
 			</div>
-			<h1>Christian Marginet</h1>
-			<p>2e jaar Frontend developer - Syntra Gent</p>
+			<h1>Christian Marginet </h1>
+			<p>2e jaar Frontend development - Syntra Gent </p>
+			
 		</section>
 	);
 }
