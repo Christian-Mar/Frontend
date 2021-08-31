@@ -24,7 +24,8 @@ function Links() {
 						</td>
 
 						<td>
-							Overzicht css - interactief (daarnaast ook tabs voor JavaScript en HTML)
+							Overzicht css - interactief (daarnaast ook tabs voor JavaScript en
+							HTML)
 						</td>
 					</tr>
 					<tr>
@@ -96,6 +97,27 @@ function Links() {
 						</td>
 
 						<td>Next documentatie (Vercel)</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th colspan='2'>Markdown</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<a
+								href='https://www.markdownguide.org/basic-syntax/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Markdown Guide
+							</a>
+						</td>
+
+						<td>Basis syntax voor .md-files</td>
 					</tr>
 				</tbody>
 			</table>

@@ -1,4 +1,4 @@
-function handler(req, res) {
+async function handler(req, res) {
 	if (res.method === 'POST') {
 		const { email, name, message } = req.body;
 
@@ -9,17 +9,16 @@ function handler(req, res) {
 			name.trim() === '' ||
 			!message ||
 			message.trim() === ''
-		);
+		)
 		{
 			res.status(422).json({message: 'Invalid input.'});
 			return;
 		}
 
-    //store it in a database
     const newMessage = {
         email, 
         name, 
-        message
+        message,
     };
     console.log(newMessage);
 
