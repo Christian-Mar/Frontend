@@ -10,6 +10,34 @@
   text-align: center;
 }
 
+.links th {
+  font-size: var(--size-5);
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem 0rem;
+}
+
+.link table {
+  table-layout: auto;
+  width: 35vw;
+}
+
+.links td {
+  padding-right: 2rem;
+  
+}
+
+.links a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+.links a:visited {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+
 @media (min-width: 768px) {
   .links h1 {
     font-size: var(--size-16);
