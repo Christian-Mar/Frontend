@@ -7,7 +7,7 @@ function Links() {
 			<table>
 				<thead>
 					<tr>
-						<th colspan='2'>Styling</th>
+						<th colSpan='2'>Styling</th>
 					</tr>
 				</thead>
 
@@ -45,7 +45,7 @@ function Links() {
 
 				<thead>
 					<tr>
-						<th colspan='2'>React</th>
+						<th colSpan='2'>React</th>
 					</tr>
 				</thead>
 
@@ -80,7 +80,7 @@ function Links() {
 				</tbody>
 				<thead>
 					<tr>
-						<th colspan='2'>Next.js</th>
+						<th colSpan='2'>Next.js</th>
 					</tr>
 				</thead>
 
@@ -101,7 +101,7 @@ function Links() {
 				</tbody>
 				<thead>
 					<tr>
-						<th colspan='2'>Markdown</th>
+						<th colSpan='2'>Markdown</th>
 					</tr>
 				</thead>
 

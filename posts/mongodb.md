@@ -10,13 +10,13 @@ De verschillende stappen:
 
 1. Free account op MongoDB
 2. Kies Cloud-service
-3. Creëen een cluster en kies voor 'Shared'
+3. Creëer een cluster en kies voor 'Shared'
 4. Kies een Cloud Provider en regio (hier Google Cloud - Belgium)
 5. MO Sandbox (gratis)
 
 De cluster in aangemaakt!
 
-Om te connecteren met de database vanuit de code van de applicatie, mongodb installeren:
+Om te connecteren met de database vanuit de code van de applicatie, mongodb installeren via npm:
 
 ```npm
 npm install mongodb
@@ -24,9 +24,9 @@ npm install mongodb
 
 6. Op MongoDB - in de cluster - clicken we 'connect'. Vervolgens verschijnt een keuze-menu waarop we 'Connect your application' kiezen.
 7. MongoDB vraagt nu om een IP-adres te selecteren (78.22.169.116), een username (Christian) en een paswoord (...). Daarna komt nogmaals het scherm waarop 'Connect your application' kan gekozen worden.
-8. Behalve de driver en version, veschijnt nu een lijn code die in de applicatie kan opgenomen worden om te fetchen.
+8. Behalve de driver (Node.js) en version, veschijnt nu een lijn code die in de applicatie kan opgenomen worden om te 'fetchen'.
 
-De backend-code voor deze website, waarin enkel de contactform gelinkt is aan mongodb (pages/api/contact.js):
+Hieronder, de backend-code (pages/api/contact.js) voor deze website. Enkel de contactform is gelinkt aan mongodb :
 
 ```js
 import { MongoClient } from 'mongodb';
