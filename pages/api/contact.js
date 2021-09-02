@@ -1,9 +1,7 @@
 import { MongoClient } from 'mongodb';
 
-// Dit is de backend code
-
 async function handler(req, res) {
-	if (res.method === 'POST') {
+	if (req.method === 'POST') {
 		//check of het request is POST
 		const { email, name, message } = req.body;
 		// validation (check of het wel een juiste e-mail, naam, message is)
@@ -33,7 +31,7 @@ async function handler(req, res) {
 		try {
 		   client = await MongoClient.connect(
 				'mongodb+srv://christian:newCBR650@cluster0.1y5ew.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-			);
+			)
 		} catch (error) {
 			res.status(500).json({ message: 'Geen connectie met de database.' });
 			return;
@@ -54,12 +52,13 @@ async function handler(req, res) {
 
 		// sluiten van de connectie
 
-		client.close();
+		//client.close();
 
 		res.status(201).json({ message: 'Ok, opgeslagen!', message: newMessage });
+    
 	}
 }
 
 
-
 export default handler;
+
