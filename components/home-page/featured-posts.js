@@ -1,4 +1,3 @@
-import PostItem from '../posts/post-item/post-item';
 import PostsGrid from '../posts/posts-grid';
 import classes from './featured-posts.module.css';
 
