@@ -6,7 +6,7 @@ isFeatured: true
 date: '2021-9-02'
 ---
 
-De verschillende stappen:
+## De verschillende stappen:
 
 1. Free account op MongoDB
 2. Kies Cloud-service
