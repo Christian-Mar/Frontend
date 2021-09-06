@@ -27,7 +27,7 @@ In package.json "scripts" aanvullen met:
 
 ## Api
 
-De api onder pages/api - voor deze website contact.js - wordt ontdaan van de login- en paswoorddata: 
+De api onder pages/api - voor deze website: contact.js - wordt ontdaan van de login- en paswoorddata: 
 ```js
 const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.1y5ew.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
 		
@@ -81,3 +81,11 @@ module.exports = phase => {
 
 };
 ```
+## Test build
+
+```js
+npm run build
+```
+
+Daarop volgt een overzicht van alle pagina, al of niet met opmerkingen. Eventueel moet de code vereenvoudigd worden of moeten packages lichter gemaakt worden. 
+

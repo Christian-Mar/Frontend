@@ -26,7 +26,7 @@ export function getStaticProps(context) {
 			post: postData,
 		},
 		revalidate: 600,
-		/* revalidate doet ee update om de 600 seconden (10 minuten), wat we in de vorige returns met getStaticProps niet gedaan hebben om niet door alle files te moeten gaan, wat zou wegen op de performance (requests vertragen)*/
+		/* revalidate doet een update om de 600 seconden (10 minuten), wat we in de vorige returns met getStaticProps niet gedaan hebben om niet door alle files te moeten gaan, wat zou wegen op de performance (requests vertragen)*/
 	};
 }
 
