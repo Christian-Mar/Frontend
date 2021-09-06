@@ -28,10 +28,10 @@ async function handler(req, res) {
 
 		let client;
 
+		const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.1y5ew.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
+		
 		try {
-		   client = await MongoClient.connect(
-				'mongodb+srv://christian:newCBR650@cluster0.1y5ew.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-			)
+		   client = await MongoClient.connect(connectionString);
 		} catch (error) {
 			res.status(500).json({ message: 'Geen connectie met de database.' });
 			return;
