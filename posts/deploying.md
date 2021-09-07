@@ -121,11 +121,11 @@ Na signing up en inloggen via GitHub, wordt vanuit Vercel authorisatie gevraagd 
 
 In 'Configure Project' kunnen bepaalde eigenschappen gegeven zoals specifiek build settings en 'Environment Variables' die voor deze site werden ondergebracht in next.config.js. Voor deze website wordt niets gewijzigd en gewoon doorgegaan naar 'Deploy'.
 
-### Deploy
+### Deploy!
 
 Na 'deploy' worden de pagina's aangemaakt, api-routes aangemaakt, enzovoort. Het proces loopt automatisch. 
 
-#### ... The magic happens, confetti falls down, ... :-) - de website staat op het web
+### ... the magic happens, confetti falls down, ... :-) ... de website staat op het web
 
 Via het dashboard kunnen verschillende opties ingesteld worden. 
 
