@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Links from '../components/links/links';
+import Head from 'next/head';
 
 function LinkPage() {
 	return (
