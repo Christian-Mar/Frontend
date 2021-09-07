@@ -87,5 +87,5 @@ module.exports = phase => {
 npm run build
 ```
 
-Daarop volgt een overzicht van alle pagina, al of niet met opmerkingen. Eventueel moet de code vereenvoudigd worden of moeten packages lichter gemaakt worden. 
+Daarop volgt een overzicht van alle pagina's, al of niet met opmerkingen. Eventueel moet de code vereenvoudigd worden of moeten packages lichter gemaakt worden. Zo is *SyntaxHighlighter* bijvoorbeeld een package om in Markdown de syntax-layout te verzorgen, die quasi alle programmeertalen - ook C++, Python, ... - ondersteunt, terwijl we hier enkel JS en CSS nodig hebben. Hiervan bestaat er ook een lichtere versie (PrismLight), waarin afzonderlijk de gebruikte programmeertalen worden gedefinieerd. Zie code in post-content.js.  
 
