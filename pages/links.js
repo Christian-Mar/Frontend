@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import Links from '../components/links/links';
 import Head from 'next/head';
+import Links from '../components/links/links';
 
 function LinkPage() {
 	return (
@@ -9,7 +9,7 @@ function LinkPage() {
 				<title>Links</title>
 				<meta
 					name='description'
-					content="Links naar diverse pagina's voor frontend development"
+					content="Links over frontend development"
 				/>
 			</Head>
 			<Links />
