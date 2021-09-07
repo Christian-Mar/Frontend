@@ -41,6 +41,60 @@ function Links() {
 
 						<td>Overzicht gebruik Flexbox</td>
 					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://coolors.co/palettes/trending'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Coolors.co
+							</a>
+						</td>
+
+						<td>Kleurencombinaties voor styling</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://imagecolorpicker.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Image color picker
+							</a>
+						</td>
+
+						<td>
+							Applicatie bepaalt het kleur van een aangeduide plaats op een foto
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://undraw.co/illustrations'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								unDraw
+							</a>
+						</td>
+
+						<td>Gratis illustraties</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://www.freellustrations.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								freellustrations
+							</a>
+						</td>
+
+						<td>Gratis illustraties (achtergrond)</td>
+					</tr>
 				</tbody>
 
 				<thead>
