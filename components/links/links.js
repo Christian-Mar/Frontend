@@ -48,7 +48,7 @@ function Links() {
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								Coolors.co
+								Coolors
 							</a>
 						</td>
 
@@ -93,7 +93,7 @@ function Links() {
 							</a>
 						</td>
 
-						<td>Gratis illustraties (achtergrond)</td>
+						<td>Gratis illustraties achtergrond</td>
 					</tr>
 				</tbody>
 
