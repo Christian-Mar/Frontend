@@ -3,7 +3,7 @@ import classes from './featured-posts.module.css';
 
 function FeaturedPosts(props) {
   return <section className={classes.latest}>
-  <h2>To do's of notities in ontwikkeling</h2>
+  <h2>To do's & notities in ontwikkeling</h2>
   <PostsGrid posts={props.posts}/>
   </section>
 }
