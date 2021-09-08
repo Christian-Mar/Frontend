@@ -62,23 +62,23 @@ function ContactForm() {
   if (requestStatus === 'pending') {
     notification = {
       status: 'pending',
-      title: 'Sending message...',
-      message: 'Your message is on its way!'
+      title: 'Bezig',
+      message: 'Het bericht in onderweg'
     };
   }
 
   if (requestStatus === 'success') {
 		notification = {
 			status: 'success',
-			title: 'Succes!',
-			message: 'Message sent successfully!',
+			title: 'OK',
+			message: 'Het bericht is goed aangekomen',
 		};
 	}
 
   if (requestStatus === 'error') {
 		notification = {
 			status: 'error',
-			title: 'Error!',
+			title: 'Fout',
 			message: requestError,
 		};
 	}

@@ -2,7 +2,7 @@
 title: Deploying van deze NextJS-website 
 excerpt: Van 'development' naar 'production' met hosting via Vercel.
 image: memo_deploying.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-09-07'
 ---
 ## Twee opties
@@ -101,7 +101,7 @@ Door de repository te connecteren met Vercel en in Vercel aan te geven om te red
 
 *In GitHub worden de settings aangepast. De settings zijn niet de settings in repository, maar worden bereikt door op de profielfoto de lijst met mogelijkheden te openen. In de linker kolom kan gekozen worden voor de 'Developer settings'. In 'Developer settings' wordt gekozen voor 'Personal access tokens'. Click op 'Generate new token'.* 
 
-*Er wordt een 'note' gemaakt, een 'expiration date' gegeven en de volgende onderdelen worden aangekruist: repo, admin:repo_hook en delete_repo. Vervolgens: 'Generate token'. Dzee token verschijnt maar één keer (maar er kan altijd een nieuwe gevraagd worden).*
+*Er wordt een 'note' gemaakt, een 'expiration date' gegeven en de volgende onderdelen worden aangekruist: repo, admin:repo_hook en delete_repo. Vervolgens: 'Generate token'. Deze token verschijnt maar één keer (maar er kan altijd een nieuwe gevraagd worden).*
 
 In de terminal: 
 
