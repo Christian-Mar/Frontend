@@ -95,6 +95,97 @@ function Links() {
 
 						<td>Gratis illustraties achtergrond</td>
 					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://fonts.google.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Google fonts
+							</a>
+						</td>
+
+						<td>Lettertypes</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://www.fontpair.co/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Font pairs
+							</a>
+						</td>
+
+						<td>Lettertypes</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://www.fontpair.co/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Font pairs
+							</a>
+						</td>
+
+						<td>Lettertypes combineren</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://archetypeapp.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Archetype
+							</a>
+						</td>
+
+						<td>Lettertypes combineren</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://www.designsystems.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Design systems
+							</a>
+						</td>
+
+						<td>Artikels over design met interessante richtlijnen</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://feathericons.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Feather
+							</a>
+						</td>
+
+						<td>Eenvoudig aanbod gratis icons</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://www.iconfinder.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Icon finder
+							</a>
+						</td>
+
+						<td>Ruim aanbod gratis en betaalde icons</td>
+					</tr>
 				</tbody>
 
 				<thead>

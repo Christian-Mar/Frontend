@@ -6,9 +6,6 @@ isFeatured: true
 date: '2021-09-08'
 ---
 
-## Bezig
-
-- UX
 
 ## Frontend memo's - verdere plannen
 
@@ -26,18 +23,19 @@ date: '2021-09-08'
 
 ## Syntra
 
-- Upgrades: Visual Studio Code, Node.JS, Git, ...
-- Lessen
+- Upgrades: Visual Studio Code, Node.JS, Git, ... **OK**
 
 ## Udemy
 
 - Projecten (Next & React): oefenen
-- Later: Vue, Nuxt, Clean Code, UX Design
+- Later: Clean Code, Typescript, Vue, Nuxt, UX Design
 
 ## Opzoeken/uitdiepen
 
+- UX (youtube) **OK**
+- Redux
 - Forms
 - SEO
-- Verhouding Fronten/Backend
-
-## ... RTW
+- Facebook-pixel, Google analytics, ...
+- Verhouding Frontend/Backend
+- AWS

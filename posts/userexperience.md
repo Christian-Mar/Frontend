@@ -2,11 +2,11 @@
 title: Principes binnen UX (user experience) 
 excerpt: Structuur, functies, comfort, look & feel van websites. Elementen om op te letten. 
 image: memo_userexperience.png
-isFeatured: true
-date: '2021-09-08'
+isFeatured: false
+date: '2021-09-09'
 ---
 
-## Het proces (eenvoudig)
+## Het proces 
 
 1. Twee kanten van het verhaal - begrijpen!
 
@@ -41,6 +41,7 @@ Probeer 3 tot 5 users te vinden van de doelgroep.
 - informatie
 - keuze
 - iets gratis krijgen
+- ...
 
 3. Wat heeft de bezoeker nodig om het doel van de pagina te bereiken?
 
@@ -60,13 +61,13 @@ Probeer 3 tot 5 users te vinden van de doelgroep.
 
 ## Kleur
 
-- groen: vrede en welzijn, groei, gezondheid - bijvoorbeeld voor een website over yoga
-- licht groen: comfort - bijvoorbeeld een website over wellness
-- roze: vrouwelijk met een vleugje luxe (paars) - bijvoorbeeld voor een website over makeup
-- blauw: vertrouwen, veiligheid, rust, loyaliteit - bijvoorbeeld Facebook
-- licht blauw: optimisme - bijvoorbeeld voor een website over iets nieuw, zoals een event of een product
-- oranje: enthousiast, vriendelijk, warm en energiek - bijvoorbeeld voor een website over speelgoed
-- rood: zelfzekerheid, jeugd, power - bijvoorbeeld voor een website over sportwagens
+- Groen: vrede en welzijn, groei, gezondheid - bijvoorbeeld voor een website over yoga
+- Licht groen: comfort - bijvoorbeeld een website over wellness
+- Roze: vrouwelijk met een vleugje luxe (paars) - bijvoorbeeld voor een website over makeup
+- Blauw: vertrouwen, veiligheid, rust, loyaliteit - bijvoorbeeld Facebook
+- Licht blauw: optimisme - bijvoorbeeld voor een website over iets nieuw, zoals een event of een product
+- Oranje: enthousiast, vriendelijk, warm en energiek - bijvoorbeeld voor een website over speelgoed
+- Rood: zelfzekerheid, jeugd, power - bijvoorbeeld voor een website over sportwagens
 - Geel: geluk, optimistisch en warm - bijvoorbeeld voor een website over koffie
 - Paars: luxueus, ceatief en wijs - bijvoorbeelde voor een website over juwelen
 - Zwart: betrouwbaar, gesofisticeerd en ervaren - zoals deze website :-) 
@@ -80,4 +81,37 @@ Zoeken naar het juiste kleur:
 - Wat is de voorkeur van de user/bezoeker?
 - Wat zijn de emoties die in de boodschap van het merk worden gelegd?
 - Wat werkt er voor concurrenten? 
+
+## Fonts
+
+**serif**: *traditional & respectable*
+**sans serif**: *stable & modern*
+
+Iconen moet zo duidelijk zijn dat ze begrepen worden zonder tekst erbij (los van het feit of er dan nog tekst bij staat)
+
+## Human-centered design approach
+
+Principes van Donald Norman: *"User-centered design means working with your users all throughout the project"*
+
+- Be people-centered
+- Use an Acitvity-Centered Systems Approach (het gaat niet om het voertuig, maar om de verplaatsing)
+
+## Drie fazen in de Sales Funnel
+
+1. Top - relevante informatie voorzien 
+2. Midden - overwegingsfase (er is al interesse)
+3. Bodem - overtuigen van wie geïnteresseerd is, maar nog niet tot actie (aankoop) is overgegaan
+
+Alle koopbeslissingen worden gemaakt op basis van de emotie, maar rationeel uitgelegd.
+
+## Zeven principes van beïnvloeding
+
+1. Social proof (reviews, referenties, anderen zeggen, ...)
+2. Liking (men koopt van wie men graag heeft en in wie men vertrouwen heeft)
+3. Authority (positie) 
+4. Reciprocity (als je iets krijgt, voel je je verplicht om iets terug te geven)
+5. Consistency (kleine stappen laten zetten, consistent opbouwen)
+6. Scarcity ('op is op')
+7. Curiosity (klein beetjes geven en de spanning erin houden)
+
 

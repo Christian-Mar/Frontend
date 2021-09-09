@@ -132,3 +132,5 @@ Via het dashboard kunnen verschillende opties ingesteld worden.
 In MongoDB dient het opgegeven ip-adres nog veranderd te worden naar *access* van alle mogelijk ip-adressen, gezien de webiste nu op het web staat. Zo niet, verschijnt er een error in het gebruik van de contactform. Daarvoor - in MongoDB - ga naar 'Network Access', 'Add Ip Address' en vervolgens 'Allow Access From Anywhere'.
 
 Gezien de repository *public* staat, werden de environmental variables overgebracht van next.config.js naar Vercel. 
+
+Bij het gebruik van het alternatief domein ook dit domein instellen om indexatie door zoekrobots toe te laten. 
