@@ -93,7 +93,7 @@ function Links() {
 							</a>
 						</td>
 
-						<td>Gratis illustraties achtergrond</td>
+						<td>Gratis illustraties</td>
 					</tr>
 					<tr>
 						<td>
@@ -103,19 +103,6 @@ function Links() {
 								rel='noopener noreferrer'
 							>
 								Google fonts
-							</a>
-						</td>
-
-						<td>Lettertypes</td>
-					</tr>
-					<tr>
-						<td>
-							<a
-								href='https://www.fontpair.co/'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Font pairs
 							</a>
 						</td>
 
