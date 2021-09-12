@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import classes from './contact-form.module.css';
 import Notification from '../ui/notification';
-
+/*
 async function sendContactData(contactDetails) {
 	const response = await fetch('/api/contact', {
 		method: 'POST',
@@ -18,73 +18,34 @@ async function sendContactData(contactDetails) {
 		throw new Error(data.message || 'Er ging iets verkeerd.');
 	}
 	*/
-}
+
 
 function ContactForm() {
 	const [enteredEmail, setEnteredEmail] = useState('');
 	const [enteredName, setEnteredName] = useState('');
 	const [enteredMessage, setEnteredMessage] = useState('');
-	const [requestStatus, setRequestStatus] = useState(); // pending, success, error
-  const [requestError, setRequestError] = useState();
 	
-  useEffect(() => {
-    if (requestStatus === 'success' || requestStatus === 'error') {
-      const timer = setTimeout(() => {
-        setRequestStatus(null);
-        setRequestError(null);
-      }, 3000);
-      return() => clearTimeout(timer);
-    }
-  }, [requestStatus]);
 
   async function sendMessageHandler(event) {
 		event.preventDefault();
 
-		// optional: add client-side validation
-
-		setRequestStatus('pending');
-
-		try {
-			await sendContactData({
-				email: enteredEmail,
-				name: enteredName,
-				message: enteredMessage,
-			});
-			setRequestStatus('success');
-      setEnteredMessage('');
-      setEnteredEmail('');
-      setEnteredName('');
-		} catch (error) {
-      setRequestError(error.message);
-			setRequestStatus('error');
-		}
-	}
-
-  let notification;
-
-  if (requestStatus === 'pending') {
-    notification = {
-      status: 'pending',
-      title: 'Bezig',
-      message: 'Het bericht in onderweg'
+		const data = {
+      enteredName,
+      enteredEmail,
+      enteredMessage,
     };
-  }
+    console.log(data);
 
-  if (requestStatus === 'success') {
-		notification = {
-			status: 'success',
-			title: 'OK',
-			message: 'Het bericht is goed aangekomen',
-		};
-	}
+		const response = await fetch('/api/contact', {
+			method: 'POST',
+			body: JSON.stringify(data),
+			headers: {
+				'Content-Type': 'application/json',
+			},
+		});
 
-  if (requestStatus === 'error') {
-		notification = {
-			status: 'error',
-			title: 'Fout',
-			message: requestError,
-		};
-	}
+  };
+		
 
 	return (
 		<section className={classes.contact}>
@@ -128,7 +89,7 @@ function ContactForm() {
 					<button>Verzenden</button>
 				</div>
 			</form>
-      {notification && (<Notification status={notification.status} title={notification.title} message={notification.message}/>)}
+      
 		</section>
 	);
 }
