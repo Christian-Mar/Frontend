@@ -2,19 +2,19 @@ import mail from '@sendgrid/mail';
 
 mail.setApiKey(process.env.MAIL_API_KEY);
 
-export default async (req, res) => {
+ async function sendMail (req, res) {
 	const body = JSON.parse(req.body);
 	
 	const message = `
-    Name: ${body.name}\r\n
-    Email: ${body.email}\r\n
-    Message: ${body.message}
+    Name: ${body.enteredName}\r\n
+    Email: ${body.enteredEmail}\r\n
+    Message: ${body.enteredMessage}
   `;
 
 	const data = {
 		to: 'christianmailbox1@gmail.com',
 		from: 'projectjs@outlook.be',
-		subject: `New message from ${body.name}`,
+		subject: `New message from ${body.enteredName}`,
 		text: message,
 		html: message.replace(/\r\n/g, '<br />'),
 	};
@@ -23,3 +23,5 @@ export default async (req, res) => {
 
 	res.status(200).json({ status: 'OK' });
 };
+
+export default sendMail;
