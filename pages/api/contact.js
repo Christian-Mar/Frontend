@@ -21,7 +21,7 @@ mail.setApiKey(process.env.MAIL_API_KEY);
 
 	await mail.send(data);
 
-	res.status(200).json({ status: 'OK' });
+	return res.status(200).json({ status: 'OK' });
 };
 
 export default sendMail;
