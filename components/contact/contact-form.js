@@ -36,7 +36,7 @@ function ContactForm() {
     };
     console.log(data);
 */
-		const res = await fetch('/api/contact', {
+		await fetch('/api/contact', {
 			method: 'POST',
 			body: JSON.stringify({
 				enteredName: enteredName,
@@ -47,6 +47,8 @@ function ContactForm() {
 				'Content-Type': 'application/json',
 			},
 		});
+
+		
 
   };
 		

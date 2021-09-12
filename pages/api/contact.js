@@ -1,14 +1,14 @@
-import mail from '@sendgrid/mail';
+import sendgrid from '@sendgrid/mail';
 
-mail.setApiKey(process.env.MAIL_API_KEY);
+sendgrid.setApiKey(process.env.MAIL_API_KEY);
 
  async function sendMail (req, res) {
 	const body = JSON.parse(req.body);
 	
 	const message = `
-    Name: ${body.enteredName}\r\n
-    Email: ${body.enteredEmail}\r\n
-    Message: ${body.enteredMessage}
+    name: ${body.enteredName}\r\n
+    email: ${body.enteredEmail}\r\n
+    message: ${body.enteredMessage}
   `;
 
 	const data = {
@@ -19,7 +19,7 @@ mail.setApiKey(process.env.MAIL_API_KEY);
 		html: message.replace(/\r\n/g, '<br />'),
 	};
 
-	await mail.send(data);
+	await sendgrid.send(data);
 
 	return res.status(200).json({ status: 'OK' });
 };
