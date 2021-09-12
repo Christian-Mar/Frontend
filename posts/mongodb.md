@@ -23,7 +23,7 @@ npm install mongodb
 ```
 
 6. Op MongoDB - in de cluster - clicken we 'connect'. Vervolgens verschijnt een keuze-menu waarop we 'Connect your application' kiezen.
-7. MongoDB vraagt nu om een IP-adres te selecteren (78.22.169.116), een username (Christian) en een paswoord (...). Daarna komt nogmaals het scherm waarop 'Connect your application' kan gekozen worden.
+7. MongoDB vraagt nu om een IP-adres te selecteren (78.__.169.1_6), een username (Christian) en een paswoord (...). Daarna komt nogmaals het scherm waarop 'Connect your application' kan gekozen worden.
 8. Behalve de driver (Node.js) en version, veschijnt nu een lijn code die in de applicatie kan opgenomen worden om te 'fetchen'.
 
 Hieronder, de backend-code (pages/api/contact.js) voor deze website. Enkel de contactform is gelinkt aan mongodb :

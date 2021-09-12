@@ -21,9 +21,7 @@ function MainNavigation() {
 					<li>
 						<Link href='/links'>Links</Link>
 					</li>
-					<li>
-						<Link href='/contact'>Contact</Link>
-					</li>
+					
 					<li>
 						<a
 							href='https://github.com/Christian-Mar'
