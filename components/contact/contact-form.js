@@ -28,17 +28,21 @@ function ContactForm() {
 
   async function sendMessageHandler(event) {
 		event.preventDefault();
-
+/*
 		const data = {
       enteredName,
       enteredEmail,
       enteredMessage,
     };
     console.log(data);
-
-		const response = await fetch('/api/contact', {
+*/
+		const res = await fetch('/api/contact', {
 			method: 'POST',
-			body: JSON.stringify(data),
+			body: JSON.stringify({
+				enteredName: enteredName,
+				enteredEmail: enteredEmail,
+				enteredMessage: enteredMessage,
+			}),
 			headers: {
 				'Content-Type': 'application/json',
 			},
