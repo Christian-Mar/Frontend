@@ -7,9 +7,9 @@ date: '2021-09-11'
 ---
 ### Nu
 
-Focus 1: Clean code (Udemy 6u)
-Focus 2: UX Design (Udemy 10u)
-Focus 3: Hooks, Redux, ... TypeScript (Udemy 40u)
+- Focus 1: Clean code (Udemy 6u)
+- Focus 2: UX Design (Udemy 10u)
+- Focus 3: Hooks, Redux, ... TypeScript (Udemy 40u)
 
 ### Syntra - vanaf 27/09
 

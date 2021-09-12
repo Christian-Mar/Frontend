@@ -10,11 +10,14 @@ async function sendContactData(contactDetails) {
 			'Content-Type': 'application/json',
 		},
 	});
+	
+	/*
 	const data = await response.json();
 
 	if (!response.ok) {
-		throw new Error(data.messag || 'Er ging iets verkeerd.');
+		throw new Error(data.message || 'Er ging iets verkeerd.');
 	}
+	*/
 }
 
 function ContactForm() {

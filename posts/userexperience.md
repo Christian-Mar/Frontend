@@ -10,9 +10,8 @@ date: '2021-09-09'
 
 1. Twee kanten van het verhaal - begrijpen!
 
-*User*: wat is het probleem/pijnpunt van de gebruiker?
-
-*Brand*: wat is het doel van het merk/product/... 
+- *User:* wat is het probleem/pijnpunt van de gebruiker?
+- *Brand:* wat is het doel van het merk/product/... 
 
 2. Research 
 (*Interviews, Focus groepen, surveys, usability testing, ...*)
