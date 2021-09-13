@@ -7,9 +7,24 @@ date: '2021-09-11'
 ---
 ### Nu
 
-- Focus 1: Clean code (Udemy 6u)
-- Focus 2: UX Design (Udemy 10u)
-- Focus 3: Hooks, Redux, ... TypeScript (Udemy 40u)
+- Focus 1: UX Design (Udemy 10u)
+- Focus 2: Hooks, Redux, ... TypeScript (Udemy 40u)
+
+  ##### Portfolio-project
+
+  Sectie 26: Typescript (5u40)
+  Secties 2, 3, 4: props, state, events, refs, redux (3u)
+  Project (22u)
+
+  ##### React Front to Back
+
+  Sectie 11, 12, 13: IT-ticketing-systeem-prokect (3u30)
+
+  ##### React, the complete guide
+
+  Sectie 18 en 19: redux (4u15)
+  Sectie 27: TypeScript (2u35) 
+
 
 ### Syntra - vanaf 27/09
 
@@ -17,7 +32,7 @@ date: '2021-09-11'
 ### Frontend memo's - verdere plannen
 
 - Header: fixeren (of hamburger maken?)
-- Contactform connecteren naar e-mail in plaats van alleen MongoDB?
+- Contactform connecteren naar e-mail?
 - Volgorde in notities steken? Eventueel zoekmachine? 
 - Portfolio maken? 
 - About pagina? Leermethoden? 
@@ -37,3 +52,4 @@ date: '2021-09-11'
 - Facebook-pixel, Google analytics, ...
 - Verhouding Frontend/Backend
 - AWS
+- Next.js: redirects, rewrites, preview mode, preact, 
