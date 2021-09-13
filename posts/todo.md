@@ -3,7 +3,7 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-09-11'
+date: '2021-09-13'
 ---
 ### Nu
 
@@ -14,12 +14,13 @@ date: '2021-09-11'
 
   *Sectie 26: Typescript (5u40)*
 
-  *Secties 2, 3, 4: props, state, events, refs, redux (3u)
-  Project (22u)*
+  *Secties 2, 3, 4: props, state, events, refs, redux (3u)*
+  
+  *Project (22u)*
 
   2. React Front to Back
 
-  *Sectie 11, 12, 13: IT-ticketing-systeem-prokect (3u30)*
+  *Sectie 11, 12, 13: IT-ticketing-systeem (3u30)*
 
   3. React, the complete guide
 
