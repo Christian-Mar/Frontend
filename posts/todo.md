@@ -28,7 +28,6 @@ date: '2021-09-13'
   
   *Sectie 27: TypeScript (2u35)* 
 
-
 ### Syntra - vanaf 27/09
 
 
@@ -55,4 +54,14 @@ date: '2021-09-13'
 - Facebook-pixel, Google analytics, ...
 - Verhouding Frontend/Backend
 - AWS
-- Next.js: redirects, rewrites, preview mode, preact, 
+- Next.js: redirects, rewrites, preview mode, preact, ...
+- Eslint
+- GraphQL
+
+### Targets 
+
+- Next.js
+- Tailwind CSS
+- TypeScript
+- MongoDB, Mongoose
+- Jest of Cypress (testing)?
