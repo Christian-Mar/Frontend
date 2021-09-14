@@ -24,7 +24,7 @@ date: '2021-09-13'
 
   3. React, the complete guide
 
-  *Sectie 18 en 19: redux (4u15)*
+  *Sectie 18 en 19: redux (4u15)*  **bezig**
   
   *Sectie 27: TypeScript (2u35)* 
 
@@ -42,7 +42,7 @@ date: '2021-09-13'
 ### Notities aanmaken 
 
 - React props
-- React hooks
+- React hooks: useState, useRef, useEffect, useContext
 - React select (package)
 
 
@@ -57,6 +57,7 @@ date: '2021-09-13'
 - Next.js: redirects, rewrites, preview mode, preact, ...
 - Eslint
 - GraphQL
+- Jest of Cypress (testing)?
 
 ### Targets 
 
@@ -64,4 +65,3 @@ date: '2021-09-13'
 - Tailwind CSS
 - TypeScript
 - MongoDB, Mongoose
-- Jest of Cypress (testing)?

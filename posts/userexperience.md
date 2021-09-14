@@ -2,9 +2,48 @@
 title: Principes binnen UX (user experience) 
 excerpt: Structuur, functies, comfort, look & feel van websites. Elementen om op te letten. 
 image: memo_userexperience.png
-isFeatured: false
+isFeatured: true
 date: '2021-09-09'
 ---
+
+*Udemy*
+
+## UX-elementen - 5S
+
+### Strategy
+
+De strategie heeft volledig betrekking op de  reden van bestaan. Dit gaat over *user needs & business objectives*. De mate waarin de website voldoet is in zekere zin meetbaar: aantal bezoeker, duur van bezoek, resultaten, ... . 
+
+Het research-proces bestaat erin ...
+
+### Scope
+
+Welke functies heeft de website? Dit gaat over *functional specifications & content requirements*.
+
+### Skeleton 
+
+De organisatie van visuele elementen. Dit gaat over *interface design (buttons, forms, ...), navigation & information design*. Dit moet zo intuïtief mogelijk zijn vanuit het perspectief van de gebruiker. 
+
+### Structure
+
+De plaatsen op de website waar je naartoe kunt gaan. Dit gaat over *interaction design & information-architecture*.
+
+### Surface 
+
+De zaken waarmee de gebruiker in interactie mee kan gaan. Dit gaat over de schermen en het *visual design*, zoals bijvoorbeeld kleur, lettertypes, efftecten, ... . Het gidst de gebruiker en reduceert een cognitieve overload. 
+
+
+
+
+
+
+
+
+
+
+
+
+*YouTube*
 
 ## Het proces 
 
