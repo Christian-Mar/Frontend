@@ -133,7 +133,7 @@ We installeren nu zowel *redux* als *react-redux*. Redux op zich staat volledig 
 npm install redux react-redux
 ```
 
-We maken index.js aan in een afzonderlijke store-folder, waarin we slechts de reducer-functie en de store aanmaken. Dus, nog geen subscriver-functie en dispatch van een action. 
+We maken index.js aan in een afzonderlijke store-folder, waarin we slechts de reducer-functie en de store aanmaken. Dus, nog geen subscriber-functie en dispatch van een action. 
 
 ```js
 import { createStore } from 'redux';
@@ -200,4 +200,42 @@ const Counter = () => {
 export default Counter;
 ```
 
-Hiermee hebben nu de actuele state en dienen we nog een dispatch toe te voegen om iets te veranderen aan de data of de state. 
+Hiermee hebben nu de actuele state en dienen we nog een dispatch toe te voegen om iets te veranderen aan de data of de state. Dit doent we met **useDispatch()**:
+
+```js
+import { useSelector, useDispatch } from 'react-redux';
+
+import classes from './Counter.module.css';
+
+const Counter = () => {
+  const dispatch = useDispatch();
+  const counter = useSelector(state => state.counter);
+  //useSelector om de data uit de store te ontvangen. 
+
+  const incrementHandler = () => {
+    dispatch( { type: 'increment'})
+  };
+
+  const decrementHandler = () => {
+    dispatch( { type: 'decrement'})
+  };
+
+  const toggleCounterHandler = () => {};
+
+  return (
+    <main className={classes.counter}>
+      <h1>Redux Counter</h1>
+      <div className={classes.value}>{counter}</div>
+      <div>
+        <button onClick={incrementHandler}>Increment</button>
+        <button onClick={decrementHandler}>Decrement</button>
+      </div>
+      <button onClick={toggleCounterHandler}>Toggle Counter</button>
+    </main>
+  );
+};
+
+export default Counter;
+```
+
+
