@@ -2,7 +2,7 @@
 title: Redux 
 excerpt: Alternatief voor useContext.
 image: memo_react.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-09-13'
 ---
 
@@ -16,13 +16,13 @@ Bij *cross-component state* wordt gebruik gemaakt van *prop chains* of *prop dri
 
 ### Wat is het verschil met useContext?
 
-In complexe apps leidt useContext tot deep nesting in JSX en grote *context provider components*. Dit maakt het tot een complexe setup. Anderzijds weegt het op performance als de state met hoge frequentie verandert. 
+In complexe apps leidt useContext tot deep nesting in JSX en grote *context provider components*. Dit maakt het tot een complexe setup. Anderzijds weegt het op performance als de state met hoge frequentie verandert. Dus, voor veel en regelmatige updates van state-veranderingen is redux de betere oplossing. Evenwel, redux is een bijkomende package en maakt daardoor de applicatie weer zwaarder. Daarom is het nu ook niet altijd de betere oplossing. 
 
 ### Hoe werkt het?
 
 Het heeft één *Central Data (State) Store*. 
 
-De componenten hebben een *subscription* voor het gebruik van de State, maar veranderen de State niet rechtstreeks! De manipulatie loopt via een *Reducer Function*. Dit is niet hetzelfde als useReducer!!! 
+De componenten hebben een *subscription* voor het gebruik van de State, maar veranderen de State niet rechtstreeks! De manipulatie loopt via een *Reducer Function*. Dit is niet hetzelfde als useReducer!
 
 Onrechtstreeks wordt de State veranderd door de *components*, die *actions* dispatchen en op hun beurt doorgestuurd worden naar de *Reducer Function*. 
 
@@ -34,7 +34,7 @@ We starten los van React. We installeren redux en roepen het op via node. De hie
 npm install redux
 ```
 
-Het importeren gebeurt via node.js. Daarna volgt een reducer-functie (geeft de initële state aan)(1), een store (die met getState kan opgeroepen worden)(2), een subscriber-functie (die de volgende state aangeeft)(3) en tenslotte de dispatch-functie (die er voor zorgt dat een actie uitgevoerd wordt, anders gebeurt er nog niets)(4):
+Het importeren gebeurt via node.js. Daarna volgt een reducer-functie (geeft de initële state aan) (1), een store (die met getState kan opgeroepen worden) (2), een subscriber-functie (die de volgende state aangeeft) (3) en tenslotte de dispatch-functie (die er voor zorgt dat een actie uitgevoerd wordt, anders gebeurt er nog niets) (4):
 
 ```js
 const redux = require('redux');
@@ -200,7 +200,7 @@ const Counter = () => {
 export default Counter;
 ```
 
-Hiermee hebben nu de actuele state en dienen we nog een dispatch toe te voegen om iets te veranderen aan de data of de state. Dit doent we met **useDispatch()**:
+Hiermee hebben nu de actuele *state* en dienen we nog een dispatch toe te voegen om iets te veranderen aan de data of de state. Dit doent we met **useDispatch()**:
 
 ```js
 import { useSelector, useDispatch } from 'react-redux';
@@ -237,5 +237,119 @@ const Counter = () => {
 
 export default Counter;
 ```
+
+Om de dispatch dynamischer te maken:
+
+```js
+//index.js in store
+if (action.type === 'increase') {
+    return {
+      counter: state.counter + action.amount,
+    };
+  }
+```
+
+```js
+//Counter.js in components
+const increaseHandler = () => {
+    dispatch( {type: 'increase', amount: 5 })
+  }   
+
+```
+
+Hierin kan ook gewerkt worden met *Multiple State Properties*.  
+
+De bestaande *state* zelf mag nooit rechtstreeks veranderd worden, maar moet overschreven worden. Daarom wordt de return in de *store* telkens weergegeven in een object.  
+
+Om een aantal zaken te vereenvoudigen kan gewerkt worden met 'Redux toolkit'.
+
+```js
+npm install @reduxjs/toolkit
+```
+
+Redux zit al in Redux toolkit, waardoor Redux mag geschrapt worden in package.json. 
+
+Met **createSlice()** groeperen we gelijkaardige *states* in de *store*.
+Met **configureStore()** organiseren we de reducer(s). In het object worden meerdere reducers gemerged tot één globale reducer. De *actions* lopen zo goed al automatisch met de toolkit. Zie onderstaande code (store & counter):
+
+```js
+import { createSlice, configureStore } from '@reduxjs/toolkit';
+
+const initialState = { counter: 0, showCounter: true };
+
+const counterSlice = createSlice({
+  name: 'counter',
+  initialState: initialState,
+  reducers: {
+    increment(state) {
+      state.counter++;
+    },
+    decrement(state) {
+      state.counter--;
+    },
+    increase(state, action) {
+      state.counter = state.counter + action.payload;
+    }, // payload is een reserved word hierin
+    toggleCounter(state) {
+      state.showCounter = !state.showCounter;
+    }
+  }
+});
+
+const store = configureStore({
+  reducer: counterSlice.reducer  
+});
+
+export const counterActions = counterSlice.actions;
+
+export default store; 
+```
+
+```js
+import { useSelector, useDispatch } from 'react-redux';
+import { counterActions } from '../store/index';
+import classes from './Counter.module.css';
+
+const Counter = () => {
+  const dispatch = useDispatch();
+  const counter = useSelector(state => state.counter);
+  const show = useSelector(state => state.showCounter);
+  //useSelector om de data uit de store te ontvangen. 
+
+  const incrementHandler = () => {
+    dispatch(counterActions.increment());
+  };
+
+const increaseHandler = () => {
+    dispatch(counterActions.increase(5))
+  }   
+
+  const decrementHandler = () => {
+    dispatch(counterActions.decrement() );
+  };
+
+  const toggleCounterHandler = () => {
+    dispatch(counterActions.toggleCounter());
+  };
+
+  return (
+		<main className={classes.counter}>
+			<h1>Redux Counter</h1>
+			{show && <div className={classes.value}>{counter}</div>}
+			<div>
+				<button onClick={incrementHandler}>Increment</button>
+				<button onClick={increaseHandler}>Increase by 5</button>
+				<button onClick={decrementHandler}>Decrement</button>
+			</div>
+			<button onClick={toggleCounterHandler}>Toggle Counter</button>
+		</main>
+	);
+};
+
+export default Counter;
+
+```
+
+Ook met meerdere gecreëerde *slices* blijft er maar één store, met één root-reducer. De verschillende reducers worden dan samengebracht in een object van de globale reducer. Het blijft echter mogelijk om de code te splitsen en deze dan te importeren in de finale *store*, maar het blijft nog steeds één *store*.    
 
 

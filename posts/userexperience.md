@@ -12,9 +12,20 @@ date: '2021-09-09'
 
 ### Strategy
 
-De strategie heeft volledig betrekking op de  reden van bestaan. Dit gaat over *user needs & business objectives*. De mate waarin de website voldoet is in zekere zin meetbaar: aantal bezoeker, duur van bezoek, resultaten, ... . 
+De strategie heeft volledig betrekking op de  reden van bestaan. Dit gaat over *user needs & business objectives*. De twee kanten van het verhaal moeten begrepen worden. De mate waarin de website voldoet is in zekere zin meetbaar: aantal bezoeker, duur van bezoek, resultaten, ... . 
 
-Het research-proces bestaat erin ...
+Het research-proces bestaat mogelijks in *stakeholder interviews*, *competitor review*, *user interviews* en *existing product audit*. 
+
+Wat moet het product doen voor de business? 
+Wie zijn de klanten/gebruikers? Hoe oud zijn ze? Waar wonen ze? ...
+
+Hoe fit dit met de bedrijfsstrategie?
+Wat maakt het verschil met/door dit product? Wat maakt het verschil?
+Waarom gaat de gebruiker naar de concurrentie? 
+Waar klagen de klanten/gebruikers over? Heel belangrijk!
+
+'First use' experience is eveneens heel belangrijk. Als ik op een scherm klik, doet de website hetgeen ik er vooraf van verwacht had? Vertrouw ik dit? Vraagt het geld, meer tijd, zoeken, inspanningen, ...? Wil ik dit? De antwoorden op deze vragen worden beslist in 3 seconden. 
+
 
 ### Scope
 
@@ -47,10 +58,7 @@ De zaken waarmee de gebruiker in interactie mee kan gaan. Dit gaat over de scher
 
 ## Het proces 
 
-1. Twee kanten van het verhaal - begrijpen!
-
-- *User:* wat is het probleem/pijnpunt van de gebruiker?
-- *Brand:* wat is het doel van het merk/product/... 
+1. Bepaling strategie
 
 2. Research 
 (*Interviews, Focus groepen, surveys, usability testing, ...*)
