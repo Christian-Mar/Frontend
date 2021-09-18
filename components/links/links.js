@@ -22,11 +22,34 @@ function Links() {
 								CSS cheatsheet
 							</a>
 						</td>
-
 						<td>
 							Overzicht css - interactief (daarnaast ook tabs voor JavaScript en
 							HTML)
 						</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://tailwindcss.com/docs'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Tailwindcss
+							</a>
+						</td>
+						<td>Tailwindcss documentatie</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://getbootstrap.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Bootstrap
+							</a>
+						</td>
+						<td>Bootstrap 5.1.1</td>
 					</tr>
 					<tr>
 						<td>

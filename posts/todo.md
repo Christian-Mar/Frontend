@@ -49,6 +49,10 @@ date: '2021-09-16'
 - React hooks: useState, useRef, useEffect, useContext
 - React select (package)
 
+### Onthouden
+
+- _rfce: shortcut om een component aan te maken in next.js/react
+
 
 ### Opzoeken/uitdiepen
 
