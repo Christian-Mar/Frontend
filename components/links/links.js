@@ -275,6 +275,40 @@ function Links() {
 						<td>Basis syntax voor .md-files</td>
 					</tr>
 				</tbody>
+				<thead>
+					<tr>
+						<th colSpan='2'>Backend</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<a
+								href='https://www.mongodb.com/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								MongoDB
+							</a>
+						</td>
+
+						<td>MongoDB</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://strapi.io/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Strapi
+							</a>
+						</td>
+
+						<td>CMS Content management</td>
+					</tr>
+				</tbody>
 			</table>
 		</section>
 	);

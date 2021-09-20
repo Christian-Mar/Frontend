@@ -1,5 +1,5 @@
 ---
-title: Next.js 
+title: Next.js fundamentals
 excerpt: De basis (pagina's, routing, Link, Head, Header, ...) aan de hand van het project 'dj-events'. 
 image: memo_next.jpg
 isFeatured: false

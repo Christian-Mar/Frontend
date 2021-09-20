@@ -29,7 +29,11 @@ date: '2021-09-16'
   
   *Sectie 27: TypeScript (2u35)* 
 
-- Focus 3: Next.js --- **bezig** ---
+- Focus 3: Next.js 
+
+1. Dj-project--- **bezig** ---
+
+2. Blog project
 
 
 ### Syntra - vanaf 27/09
