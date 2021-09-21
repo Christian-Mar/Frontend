@@ -92,9 +92,11 @@ Hiervoor is er ook een config aangemaakt, met daarnaast een aanpassing van de js
 index.js in /config:
 ```js
 export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'
-````
+```
 
 jsconfig.json
+
+```js
 {
   "compilerOptions": {
     "baseUrl": ".",
