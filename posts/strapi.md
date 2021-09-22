@@ -21,3 +21,12 @@ Om de strapi-server te runnen:
 ```js
 npm run develop
 ```
+
+In Strapi
+
+- Aanmaken van een gebruiker
+- Aanmaken van een collectie via *Content-Types Builder*
+- Aanmaken van velden (tekst: name, UID: slug - attached field: name, ...)
+- Eens alle velden aangemaakt en opgeslagen verschijnt de collectie bij de *colletie types*. Door daar op te klikken kan een nieuw 'event' aangemaakt worden. Bij het geven van de naam wordt automatisch de slug aangepast. 
+- Voorlopig wordt in de rollen binnen de settings op 'public' gezet en wordt ook 'upload' mogelijk gemaakt voor de foto's. We doen hetzelfde voor de *authenticated role*. 
+
