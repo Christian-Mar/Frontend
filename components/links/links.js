@@ -218,6 +218,19 @@ function Links() {
 
 						<td>React documentatie</td>
 					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://create-react-app.dev/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Create React App
+							</a>
+						</td>
+
+						<td>React documentatie dependencies</td>
+					</tr>
 
 					<tr>
 						<td>
@@ -231,6 +244,27 @@ function Links() {
 						</td>
 
 						<td>Package voor select-functies in forms</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th colSpan='2'>TypeScript</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<a
+								href='https://www.typescriptlang.org/docs/handbook/2/basic-types.html'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								TypeScript 
+							</a>
+						</td>
+
+						<td>TypeScript documentatie</td>
 					</tr>
 				</tbody>
 				<thead>

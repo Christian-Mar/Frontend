@@ -3,7 +3,7 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-09-16'
+date: '2021-09-24'
 ---
 ### Nu
 
@@ -76,4 +76,6 @@ date: '2021-09-16'
 - Next.js
 - Tailwind CSS
 - TypeScript
-- MongoDB, Mongoose
+- MongoDB, Mongoose / Strapi 
+
+

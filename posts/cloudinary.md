@@ -2,7 +2,7 @@
 title: Cloudinary 
 excerpt: Backend voor het beheren van foto's
 image: memo_backend.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-09-20'
 ---
 
