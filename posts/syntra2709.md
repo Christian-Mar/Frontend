@@ -33,12 +33,16 @@ const myFunction = ((acc, cv) => {
 
 Oefening: zoek het op één na grootste getal
 
+*eigen oplossing*
+
 ```js
 const arrFindSecondLargest = [1, 2, 12, 12, 22, 5].sort((a, b) => {
   return b - a;
 }).[1];
 console.log(arrFindSecondLargest);
 ```
+
+*alternatieven*
 
 ```js
 //in een array het 2de grootste element weergeven
@@ -103,5 +107,69 @@ console.log(secondBiggestNumber)
 
 ### Fetch API yahoo-finance
 
-...
+HTML
+
+*eigen oplossing*
+
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Fetching the Yahoo Finance API</title>
+</head>
+<body>
+  <h1>Minimum- en maximumkoers via Yahoo Finance </h1>
+
+    <div>
+    <form id="form">
+      <input type="text" id="stock" name="stock" placeholder="Ticker" maxlength="8" required><br><br>
+      <input type="submit" id="enterTicker"></input>
+    </form>
+    </div>
+    <div id="overview"></div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+```
+
+JAVASCRIPT
+
+```js
+const form = document.getElementById('form');
+const overview = document.getElementById('overview');
+
+form.addEventListener('submit', async e => {
+    e.preventDefault();
+    
+    const ticker = document.getElementById('stock').value;
+   
+    await fetch(`https://rest.yahoofinanceapi.com/v6/finance/quote?symbols=${ticker}`, {
+      method: "GET", 
+      headers: {     
+        'Content-Type': 'application/json',
+        'x-api-key':
+          'insert KEY here!',
+      }, 
+    })
+    .then (response => response.json())
+    .then (data => {
+        const name = data.quoteResponse.result[0].longName;
+        const market = data.quoteResponse.result[0].fullExchangeName;
+        const low = data.quoteResponse.result[0].fiftyTwoWeekLow;
+        const high = data.quoteResponse.result[0].fiftyTwoWeekHigh;
+        const currency = data.quoteResponse.result[0].financialCurrency;
+        const stock = document.createElement('p');
+        overview.innerHTML ='';
+        stock.textContent =`${name} noteerde in de voorbije 52 weken op ${market} het laagst aan ${low} ${currency} en het hoogst aan ${high} ${currency}.`;
+        overview.appendChild(stock);
+    })
+    .catch(function(err) {  
+        alert('Helaas, dit bedrijf bestaat nog niet', err);
+      }); 
+});
+```
 

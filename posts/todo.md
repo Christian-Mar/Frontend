@@ -17,7 +17,7 @@ E-commerce-project (12u)
 
 ### Syntra 
 
-- Fetch Yahoo-finance-api
+- Opdracht "Fetch Yahoo-finance-api" *OK - werkt, maar kan verbeterd worden*
 
 ### Notities aanmaken 
 
@@ -42,12 +42,18 @@ E-commerce-project (12u)
 - Eslint
 - GraphQL
 - Jest of Cypress (testing)?
+- axios/fetch/...
+- Machine-learning (youtube)
 
-### Targets 
+### Targets nu 
 
-- Next.js
+- React & Next.js
 - Tailwind CSS
 - MongoDB, Mongoose / Strapi  
 - (TypeScript)
 
+### Ideeën en inspiratie
 
+- App ontwikkelen waarin websites kunnen opgeload worden en door beoordelaars kunnen gescoord worden op verschillende criteria (UX)
+- Tool ontwikkelen om efficiënter te vergaderen en verslagen te noteren tijdens de vergadering
+- Studeerplanner voor studenten
