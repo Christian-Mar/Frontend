@@ -5,47 +5,19 @@ image: memo_todo.png
 isFeatured: true
 date: '2021-09-24'
 ---
-### Nu
+### Udemy
 
-- Focus 1: UX Design (Udemy 10u) --- **bezig** ---
+- Next.js dev
 
-- Focus 2: Hooks, Redux, ... TypeScript (Udemy 40u)
+Blog-project (4u)
 
-  1. Portfolio-project
+- React Tutorial and Projects Course
 
-  *Sectie 26: Typescript (5u40)*
+E-commerce-project (12u)
 
-  *Secties 2, 3, 4: props, state, events, refs, redux (3u)*
-  
-  *Project (22u)*
+### Syntra 
 
-  2. React Front to Back
-
-  *Sectie 11, 12, 13: project IT-ticketing-systeem (3u30)*
-
-  3. React, the complete guide
-
-  *Sectie 18 en 19: redux (4u15) --- **sectie 18 gedaan** ---
-  
-  *Sectie 27: TypeScript (2u35)* 
-
-- Focus 3: Next.js 
-
-1. Dj-project--- **bezig** ---
-
-2. Blog project
-
-
-### Syntra - vanaf 27/09
-
-
-### Frontend memo's - verdere plannen
-
-- Header: fixeren (of hamburger maken?)
-- Contactform connecteren naar e-mail?
-- Volgorde in notities steken? Eventueel zoekmachine? 
-- Portfolio maken? 
-- About pagina? Leermethoden? 
+- Fetch Yahoo-finance-api
 
 ### Notities aanmaken 
 
@@ -75,7 +47,7 @@ date: '2021-09-24'
 
 - Next.js
 - Tailwind CSS
-- TypeScript
-- MongoDB, Mongoose / Strapi 
+- MongoDB, Mongoose / Strapi  
+- (TypeScript)
 
 

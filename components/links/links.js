@@ -15,6 +15,20 @@ function Links() {
 					<tr>
 						<td>
 							<a
+								href='https://css-tricks.com/the-shapes-of-css/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								CSS tricks
+							</a>
+						</td>
+						<td>
+							Vormen in CSS
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a
 								href='https://htmlcheatsheet.com/css/'
 								target='_blank'
 								rel='noopener noreferrer'
@@ -260,7 +274,7 @@ function Links() {
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								TypeScript 
+								TypeScript
 							</a>
 						</td>
 

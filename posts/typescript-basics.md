@@ -1,8 +1,8 @@
 ---
 title: TypeScript fundamentals 
-excerpt: Typescript basisbegrippen & syntax
+excerpt: Typescript intro basisbegrippen & syntax
 image: memo_typescript.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-09-24'
 ---
 
@@ -142,8 +142,83 @@ const updatedArray = insertAtBeginning(demoArray, -1) // [-1, 1, 2, 3]
 const stringArray = insertAtBeginning(['a','b','c'], 'd')
 ```
 
-### Oefening - project
+### Oefening 
 
 ```js
 npx create-react-app react-ts --template typescript
 ```
+
+```js
+npm start
+```
+
+In plaats van js-files zijn de files in de src-folder nu tsx-files.
+
+Props met TypeScript krijgen een eigen type.
+
+Todo.tsx (component):
+
+```js
+import React from 'react';
+
+const Todos: React.FC <{items: string[]}> = (props) => {
+  // FC staat voor functional component en is hier het (generic) type
+	return (
+		<ul>
+		{props.items.map((item) => (
+      <li key={item}>{item}</li>
+    ))}
+		</ul>
+	);
+}
+export default Todos;
+```
+
+App.tsx
+
+
+```js
+import Todos from './components/Todos';
+import './App.css';
+
+function App() {
+  return (
+    <div>
+      <Todos items={['Learn React', 'Learn TypeScript']} />
+    </div>
+  );
+}
+
+export default App;
+```
+
+TypeScript in een form:
+
+```js
+import React, { useRef } from "react";
+
+
+const NewTodo = () => {
+  const todoTextInputRef = useRef<HTMLInputElement>(null);
+  const submitHandler = (event: React.FormEvent) => {
+    event.preventDefault();
+    const enteredText = todoTextInputRef.current?.value;
+    // Het '?' stelt de vraag of er een waarde aanwezig is (niet null)
+    // Een '!' kan ook als men zeker is dat er een value zal zijn. 
+    if(enteredText?.trim().length === 0) {
+      // throw an error
+      return;
+    }
+  };
+  return (
+    <form onSubmit={submitHandler}>
+      <label htmlFor="text">Todo text</label>
+      <input type="text" id="text" ref={todoTextInputRef}/>
+      <button>Add Todo</button>
+    </form>
+  )
+}
+
+export default NewTodo;
+```
+

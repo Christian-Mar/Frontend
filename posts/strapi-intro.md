@@ -2,7 +2,7 @@
 title: Strapi 
 excerpt: CMS voor content en het automatisch aanmaken van een API
 image: memo_backend.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-09-21'
 ---
 

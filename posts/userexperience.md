@@ -31,6 +31,20 @@ Waar klagen de klanten/gebruikers over? Heel belangrijk!
 
 Welke functies heeft de website? Dit gaat over *functional specifications & content requirements*.
 
+Wat gaan we bouwen? 
+- Meer complexititeit = meer vereisten
+- Vereisten: wat men zegt nodig te hebben (1), wat men werkelijk nodig heeft (2) en wat niet weet dat men nodig heeft (3)
+- User scenario: wat is de weg die de gebruiker aflegt naar het doel? 
+- Be positive, be specific & do not be subjective = value
+
+Content
+
+- Content format en doel
+- Content size: aantal woorden, pixels, file-grootte, ...
+- Resources
+- Is er een fit tussen het doel van de business en wat de user nodig heeft? Hierbij dient ook rekening gehouden te worden met de devices. 
+- User: what's in it for me? 
+
 ### Skeleton 
 
 De organisatie van visuele elementen. Dit gaat over *interface design (buttons, forms, ...), navigation & information design*. Dit moet zo intuïtief mogelijk zijn vanuit het perspectief van de gebruiker. 
@@ -44,11 +58,17 @@ De plaatsen op de website waar je naartoe kunt gaan. Dit gaat over *interaction 
 De zaken waarmee de gebruiker in interactie mee kan gaan. Dit gaat over de schermen en het *visual design*, zoals bijvoorbeeld kleur, lettertypes, efftecten, ... . Het gidst de gebruiker en reduceert een cognitieve overload. 
 
 
+*youtube*
 
+## Affiliate marketing
 
+1. Focus on helping
+2. Be outstanding
+3. Overdeliver - the extra mile
+4. Persevere 
+5. Improve
 
-
-
+In *affiliate* zijn er 3 markten: health (weight loss, lifestyle, fitness, diet, ...), wealth (marketing, investing, passive income, crypto, ...) & relationships (religion, dating, marriage, parenting, ...). Het sub-level daarvan is telkens een niche. 
 
 
 
