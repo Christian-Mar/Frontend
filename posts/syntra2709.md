@@ -1,6 +1,6 @@
 ---
 title: Javascript herhaling 
-excerpt: reduce-methode arrays & api-fetch 
+excerpt: Reduce-methode arrays & api-fetch 
 image: memo_syntra.jpg
 isFeatured: true
 date: '2021-09-27'
@@ -113,7 +113,7 @@ HTML
 
 ```js
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -168,7 +168,7 @@ form.addEventListener('submit', async e => {
         overview.appendChild(stock);
     })
     .catch(function(err) {  
-        alert('Helaas, dit bedrijf bestaat nog niet', err);
+        alert('Helaas, er is iets verkeerd gelopen', err);
       }); 
 });
 ```

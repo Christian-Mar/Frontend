@@ -3,7 +3,7 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-09-24'
+date: '2021-10-01'
 ---
 ### Udemy
 

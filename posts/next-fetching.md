@@ -17,7 +17,7 @@ export default function handler(req, res) {
   } 
 ```
 
-Als we de route (https://localhost:3000/api/events) invoegen in Postman krijgen de volledige array aan data, ongeacht ofwe een POST of GET of ... request gebruiken. Daarom breiden we de code uit om nu te limiteren tot GET: 
+Als we de route (https://localhost:3000/api/events) invoegen in Postman krijgen we de volledige array aan data, ongeacht of we een POST of GET of ... request gebruiken. Daarom breiden we de code uit (in het voorbeeld voor GET): 
 
 ```js
 const { events } = require('./data.json')
@@ -33,7 +33,7 @@ export default function handler(req, res) {
 }
 ```
 
-Als we deze code in Postman voegen met een een POST-request krijgen we de boodschap: "method POST us not allowed".
+Als we deze code in Postman voegen met een een POST-request krijgen we de boodschap: "method POST is not allowed".
 
 Willen we nu per specifiek event de data opvragen, dan filteren we op de slug van data.json. 
 
@@ -57,7 +57,7 @@ export default function handler(req, res) {
 
 Er zijn drie unieke functies om te fetchen binnen Next.js:
 
-- getStaticProps (Static Generation): Fetch data at build time. Dus, 1 keer. Maar, dit kan omzeild worden door in de return 'revalidate' te gebruiken die telkens om de zoveel ingestelde tijd de request herhaalt. 
+- getStaticProps (Static Generation): Fetch data at build time. Dus, 1 keer. Maar, dit kan omzeild worden door in de return 'revalidate' te gebruiken die telkens om de zoveel ingestelde tijd het request herhaalt. 
 - getStaticPaths (Static Generation): Specify dynamic routes to pre-render pages based on data.
 - getServerSideProps (Server-side Rendering): Fetch data on each request. Loopt telkens als we op de pagina komen waar de fetch gebeurt. 
 

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import PostHeader from './post-header';
 import classes from './post-content.module.css';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter'; 
-import ghcolors from 'react-syntax-highlighter/dist/cjs/styles/prism/ghcolors';
+import atomDark from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
 import css from 'react-syntax-highlighter/dist/cjs/languages/prism/css';
 
@@ -45,7 +45,7 @@ function PostContent(props) {
       // language is hier JS, HTML, ... bijvoorbeeld
       return (
 				<SyntaxHighlighter
-					style={ghcolors}
+					style={atomDark}
 					language={language}
 					children={children}
 				/>

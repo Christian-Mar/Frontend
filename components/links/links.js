@@ -22,9 +22,7 @@ function Links() {
 								CSS tricks
 							</a>
 						</td>
-						<td>
-							Vormen in CSS
-						</td>
+						<td>Vormen in CSS</td>
 					</tr>
 					<tr>
 						<td>
@@ -321,6 +319,19 @@ function Links() {
 						</td>
 
 						<td>Basis syntax voor .md-files</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://stackedit.io/app#'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Stack Edit
+							</a>
+						</td>
+
+						<td>Online editor om te schrijven in Markdown met onmiddellijk beeld van de zichtbare tekst</td>
 					</tr>
 				</tbody>
 				<thead>
