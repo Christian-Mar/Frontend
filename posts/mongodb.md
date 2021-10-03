@@ -3,7 +3,7 @@ title: MongoDB
 excerpt: Opzet en gebruik van een MongoDB-database voor de contactform in deze website (React en Next.js)
 image: memo_backend.jpg
 isFeatured: false
-date: '2021-9-02'
+date: '2021-09-02'
 ---
 
 ## De verschillende stappen:

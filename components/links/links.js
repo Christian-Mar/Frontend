@@ -54,6 +54,18 @@ function Links() {
 					<tr>
 						<td>
 							<a
+								href='https://headlessui.dev/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Headless UI
+							</a>
+						</td>
+						<td>Kant en klare componenten voor Tailwindcss met React of Vue</td>
+					</tr>
+					<tr>
+						<td>
+							<a
 								href='https://getbootstrap.com/'
 								target='_blank'
 								rel='noopener noreferrer'
@@ -331,7 +343,10 @@ function Links() {
 							</a>
 						</td>
 
-						<td>Online editor om te schrijven in Markdown met onmiddellijk beeld van de zichtbare tekst</td>
+						<td>
+							Online editor om te schrijven in Markdown met onmiddellijk beeld
+							van de zichtbare tekst
+						</td>
 					</tr>
 				</tbody>
 				<thead>
