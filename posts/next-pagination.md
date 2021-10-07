@@ -5,8 +5,8 @@ image: memo_next.jpg
 isFeatured: true
 date: '2021-10-07'
 ---
-## Paths genereren 
+Nodig: 
 
-## Fetch van de 'paginated posts'
-
-## ...
+[slug] omwille van de divers aangemaakte posts die een eigen url krijgen
+{getStaticProps}
+{getStaticPaths}

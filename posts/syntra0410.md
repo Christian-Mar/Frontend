@@ -63,7 +63,7 @@ function Welcome(props) {
 }
 ```
 
-### Spread operator
+### Spread operator destructuring
 
 Om de code de vereenvoudigen kan gebruik gemaakt worden van de spread operator in het doorgeven van props, zoals hier:
 
@@ -72,6 +72,21 @@ function MainComponent(){
   const props = { firstName: "Jack", lastName: "Skeld" }
   return <Hello {...props} />
 }
+```
+
+Om niet in iedere tag de property te moeten laten voorafgaan door props kan een variabele aangemaakt worden die alle props aangeeft: 
+
+```js
+const Book = (props) {
+  const {img, title, author} = props
+  return (
+    <article>
+      <img src={img} alt=''}/ >
+      <h1>{props.title}</h1>
+      <h4>{props.author}</h4>
+    </article>
+  );
+};
 ```
 
 ### JS in JSX
