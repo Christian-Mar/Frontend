@@ -39,7 +39,7 @@ In de config-folder veranderen we in index.js de localhost naar port 1337. Daard
 
 ```js
 <Image
-					src={evt.image ? evt.image.formats.thumbnail.url: '/images/event-default.png'}
+					src={evt.image ? evt.image.formats.thumbnail.url : '/images/event-default.png'}
 					width={170}
 					height={100}
 				/>

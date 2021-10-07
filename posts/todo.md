@@ -17,17 +17,17 @@ E-commerce-project (12u)
 
 ### Syntra 
 
-- Opdracht "Fetch Yahoo-finance-api" *OK*
+- Opdracht CSS tegen 21-11-21
+
 
 ### Notities aanmaken 
 
-- React props
 - React hooks: useState, useRef, useEffect, useContext
 - React select (package)
 
 ### Onthouden
 
-- _rfce: shortcut om een component aan te maken in next.js/react
+- _rafce: shortcut om een component aan te maken in next.js/react met arrow-functie en export default onderaan
 
 
 ### Opzoeken/uitdiepen
@@ -57,3 +57,4 @@ E-commerce-project (12u)
 - App ontwikkelen waarin websites kunnen opgeload worden en door beoordelaars kunnen gescoord worden op verschillende criteria (UX)
 - Tool ontwikkelen om efficiënter te vergaderen en verslagen te noteren tijdens de vergadering
 - Studeerplanner voor studenten
+
