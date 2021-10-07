@@ -1,13 +1,12 @@
 ---
-title: Javascript herhaling 
+title: Syntra herhalingsles 
 excerpt: Reduce-methode arrays & api-fetch 
-image: memo_syntra.jpg
-isFeatured: true
+image: memo_javascript.jpg
+isFeatured: false
 date: '2021-09-27'
 ---
 
-### reduce-methode
-
+## reduce-methode
 
 Tel de values van een array bij elkaar op
 
@@ -105,13 +104,13 @@ const secondBiggestNumber = myArray.reduce((acc, cv) => {
 console.log(secondBiggestNumber)
 ```
 
-### Fetch API yahoo-finance
+## Fetch API yahoo-finance
 
 HTML
 
 *eigen oplossing*
 
-```js
+```html
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -171,5 +170,29 @@ form.addEventListener('submit', async e => {
         alert('Helaas, er is iets verkeerd gelopen', err);
       }); 
 });
+```
+
+## .env
+
+Voor het opslaan van environment variables (keys, paswoorden, andere) kan een afzonderlijke file aangelegd worden in de root: *.env*. Deze file kan via gitignore buiten de upload naar Github gehouden worden, zodat de keys, paswoorden of url's niet publiek komen te staan. 
+
+De .env-file heeft een eenvoudige syntax, met gebruik van hoofdletters (in TypeScript worden de types nog afzonderlijk bepaald binnen dezelfde file): 
+
+```js
+PASSWORD="12345"
+```
+
+Om de data uit de .env-file te lezen wordt *dotenv* geïnstalleerd: 
+
+```js
+npm install dotenv
+```
+
+Uiteindelijk wordt dan in de code van de pagina of component *dotenv* geïmporteerd, de functie gecalled (!) en het gegeven opgeroepen uit de .env-file:
+
+```js
+import dotenv from 'dotenv';
+dotenv.config();
+console.log(process.env.PASSWORD);
 ```
 

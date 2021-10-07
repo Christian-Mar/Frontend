@@ -17,7 +17,7 @@ E-commerce-project (12u)
 
 ### Syntra 
 
-- Opdracht "Fetch Yahoo-finance-api" *OK - werkt, maar kan verbeterd worden*
+- Opdracht "Fetch Yahoo-finance-api" *OK*
 
 ### Notities aanmaken 
 
