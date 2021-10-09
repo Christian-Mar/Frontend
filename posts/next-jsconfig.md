@@ -14,7 +14,7 @@ Deze file wordt aangemaakt in de root, als volgt:
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*],
+      "@/components/*": ["components/*"],
       "@/config/*": ["config/*"],
       "@/utils/*": ["utils/*],
     }
