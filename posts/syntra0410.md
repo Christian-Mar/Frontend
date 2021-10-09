@@ -89,6 +89,31 @@ const Book = (props) {
 };
 ```
 
+De aangemaakte const kan ook meteen als parameter meegeven worden en dan geschreven als een object: 
+
+```js
+const Book = ({img, title, author}) {
+  ...
+}
+```
+
+De {children}-prop geeft ook alle children mee van de elementen die in de specifieke component staan. Bijvoorbeeld: 
+
+```js
+const Book = (props) {
+  const {img, title, author, children} = props
+  return (
+    <article>
+      <img src={img} alt=''}/ >
+      <h1>{props.title}</h1>
+      <h4>{props.author}</h4>
+      {children}
+    </article>
+  );
+};
+```
+Als er bijvoorbeeld in een geïmporteerde Book-component tussen <Book>-tags ook een <p>-tag staat, zal ook de tekst van die <p>-tag weergegeven worden. 
+
 ### JS in JSX
 
 Om JavaScript elementen in JSX te zetten wordt gebruik gemaakt van { }:

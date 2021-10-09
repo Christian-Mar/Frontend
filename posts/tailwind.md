@@ -17,7 +17,7 @@ npx create-next-app -e with-tailwindcss my-project
 cd my-project
 ```
 
-Installeren van Tailwindcss;
+Installeren van Tailwindcss:
 
 ```js
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
@@ -31,7 +31,7 @@ npx tailwindcss init -p
 
 In de tailwind.config.js-file vullen we de *purge* array met: './pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'.
 
-Om Tailwindcss in het project op te nemen, de volgende drie lijnen opnemen in de globals.css-file ter vervanging van de default css door next geînstalleerd:
+Om Tailwindcss in het project op te nemen, de volgende drie lijnen opnemen in de globals.css-file ter vervanging van de default css door next geïnstalleerd:
 
 ```js
 @tailwind base;
