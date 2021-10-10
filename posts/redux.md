@@ -1,6 +1,6 @@
 ---
 title: Redux 
-excerpt: Alternatief voor useContext
+excerpt: Alternatief voor useContext.
 image: memo_react.jpg
 isFeatured: false
 date: '2021-09-13'
