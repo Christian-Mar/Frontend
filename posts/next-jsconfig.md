@@ -16,7 +16,7 @@ Deze file wordt aangemaakt in de root, als volgt:
     "paths": {
       "@/components/*": ["components/*"],
       "@/config/*": ["config/*"],
-      "@/utils/*": ["utils/*],
+      "@/utils/*": ["utils/*"],
     }
   }
 }
