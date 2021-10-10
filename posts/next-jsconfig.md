@@ -2,7 +2,7 @@
 title: Next.js jsconfig.json
 excerpt: Zorgt voor een verkort 'path' bij de import in zoverre het om andere folders gaat
 image: memo_next.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-10-09'
 ---
 ### jsconfig.json
