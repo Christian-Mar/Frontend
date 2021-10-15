@@ -82,8 +82,8 @@ const Book = (props) {
   return (
     <article>
       <img src={img} alt=''}/ >
-      <h1>{props.title}</h1>
-      <h4>{props.author}</h4>
+      <h1>{title}</h1>
+      <h4>{author}</h4>
     </article>
   );
 };
@@ -105,8 +105,8 @@ const Book = (props) {
   return (
     <article>
       <img src={img} alt=''}/ >
-      <h1>{props.title}</h1>
-      <h4>{props.author}</h4>
+      <h1>{title}</h1>
+      <h4>{author}</h4>
       {children}
     </article>
   );
