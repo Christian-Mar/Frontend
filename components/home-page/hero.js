@@ -14,8 +14,10 @@ function Hero() {
 			</div>
 			<h1>Christian Marginet </h1>
 			<p>2e jaar Frontend development - Syntra Gent </p>
-			
-		</section>
+
+			<article className={classes.quote}>... in mijn ervaring komt versie 1.0 pas na versie 4.17.22. ...</article>
+
+		</section> 
 	);
 }
 

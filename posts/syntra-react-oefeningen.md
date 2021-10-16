@@ -12,11 +12,11 @@ date: '2021-10-15'
 
 - Maak een button-component
 - Maak een *prop* voor de tekst van de button
-- Gebruik die button op een pagine
-- Maak een *image*-component
-- Zorg voor een random *image* in de component via https://picsum.photos/
-- Toon de *image* in de browser
-- Bij clicken op de buttone wordt een nieuwe random *image* weergegeven
+- Gebruik die button op een pagina
+- Maak een image-component
+- Zorg voor een random image in de component via https://picsum.photos/
+- Toon de image in de browser
+- Bij clicken op de button wordt een nieuwe random image weergegeven
 
 *Oefening 2*
 
