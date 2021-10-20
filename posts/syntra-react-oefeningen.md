@@ -3,7 +3,7 @@ title: Oefeningen React
 excerpt: Props, useState, ... .
 image: memo_syntra.jpg
 isFeatured: true
-date: '2021-10-15'
+date: '2021-10-20'
 ---
 
 ## 11/10/2021 Props + useState
@@ -29,6 +29,8 @@ Oplossing oefening 1 & 2: [Github](https://github.com/Christian-Mar/syntra_exerc
 
 *Oefening 3*
 
-Maak een eenvoudige 'to do'-app, waarbij *to do's* ingevoegd worden, upgedate worden en kunnen verwijderd worden.  
+Maak een eenvoudige 'to do'-app, waarbij *to do's* ingevoegd worden, upgedate worden en kunnen verwijderd worden. 
+
+*Analyse: state van de todo (via input) en state van de lijst met alle todo's*
 
 Oplossing oefening 3: [Github](https://github.com/Christian-Mar/react_todo).

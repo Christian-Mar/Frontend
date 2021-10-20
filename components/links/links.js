@@ -255,7 +255,19 @@ function Links() {
 
 						<td>React documentatie dependencies</td>
 					</tr>
+					<tr>
+						<td>
+							<a
+								href='https://github.com/enaqx/awesome-react'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Awesome React
+							</a>
+						</td>
 
+						<td>Overzicht naar zowat alle links die relevant zijn voor React</td>
+					</tr>
 					<tr>
 						<td>
 							<a
