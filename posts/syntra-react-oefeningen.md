@@ -26,3 +26,9 @@ date: '2021-10-15'
 - EXTRA: Voeg de mogelijkheid toe of ze een dier hebben, indien er een dier is ingevuld, toon dat op de pagina (Dier: ‘Hond’, Naam v/h dier: ‘Fluffy’). Als de persoon geen dieren heeft, willen we ook de labels Dier & Naam v/h dier niet zien. Tip: Dit stukje kan je ook in een aparte component onderbrengen.
 
 Oplossing oefening 1 & 2: [Github](https://github.com/Christian-Mar/syntra_exercise_useState).
+
+*Oefening 3*
+
+Maak een eenvoudige 'to do'-app, waarbij *to do's* ingevoegd worden, upgedate worden en kunnen verwijderd worden.  
+
+Oplossing oefening 3: [Github](https://github.com/Christian-Mar/react_todo).
