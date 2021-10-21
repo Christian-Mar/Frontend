@@ -34,19 +34,39 @@ Daarvoor in npm:
 npm install react-hook-form
 ```
 
+
 ### De useForm hook
 
-Binnen de functie van de form nemen we *useForm* op als een variabele met een object dat bestaat uit: {register, handleSubmet, errors}. Wat *useForm* doet, is de verschillende states opnemen die anders dienen gedefinieerd te worden voor *register* & *errors*. In *useForm* gaat het enkel over het creëren van de form niet over de validatie.
+Binnen de functie van de form nemen we *useForm* op als een variabele met een object dat bestaat uit: {register, handleSubmit, errors}. Wat *useForm* doet, is de verschillende states opnemen die anders dienen gedefinieerd te worden voor *register* & *errors*. 
+
+In *useForm* gaat het enkel over het creëren van de form niet over de validatie.
 
 - *register* nemen we op als *ref* in de *input*, waar dit in een klassiek formulier *onChange* zou zijn
 -  *handleSubmit* nemen we op als *onSubmit* op de *form*
 
-Om iets te doen met de verkregen data - bijvoorbeeld naar de server sturen - wordt de handleSubmit gedefinieerd aan de hand van een onSubmit-functie.
+Om iets te doen met de verkregen data - bijvoorbeeld naar de server sturen - wordt de handleSubmit gedefinieerd aan de hand van een onSubmit-functie. Zie voorbeeld in de onderstaande code.
 
 - *errors* voor de *error-handling* wordt opgenomen in de *ref* als onderdeel van *register*
 met de nodige opties in een object
 
-Eens de opties toegekend aan *register* kunnen de *errors* met een boodschap wordt getoond als ze zich voordoen: ```js {errors.password && <p>Password is invalid</p>} ```.  Deze boodschap kan ook meegeven worden in de error-opties: ```js ref={register({required: 'Password required', minLength: 8})} ```, waarbij de boodschap dan als volgt meegegeven wordt: ```js {errors.password && <p>{errors.password.message}</p>} ```.
+Eens de opties toegekend aan *register* kunnen de *errors* met een boodschap wordt getoond als ze zich voordoen: 
+
+```js 
+{errors.password && <p>Password is invalid</p>} 
+```  
+
+Deze boodschap kan ook meegeven worden bij de error-opties in de *ref*: 
+
+```js 
+ref={register({required: 'Password required', minLength: 8})} 
+```
+
+..., waarbij de boodschap dan als volgt meegegeven wordt: 
+
+```js 
+{errors.password && <p>{errors.password.message}</p>} 
+```
+
 
 ```js
 import useFrom from 'react-hook-form';
@@ -72,6 +92,7 @@ ref={register({required: true, minLength: 8})}/ >
 
 export default App;
 ```
+
 
 ### De validatie met yup
 
@@ -129,3 +150,4 @@ Om bijvoorbeeld inputs te vergelijken, zoals bij het bevestigen van het paswoord
 ```js
 confirmPassword: yup.string().oneOf([yup.ref('password'), null])
 ```
+
