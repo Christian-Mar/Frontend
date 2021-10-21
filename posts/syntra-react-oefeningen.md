@@ -31,7 +31,7 @@ Oplossing oefening 1 & 2: [Github](https://github.com/Christian-Mar/syntra_exerc
 
 Maak een eenvoudige 'to do'-app, waarbij *to do's* ingevoegd worden, upgedate worden en kunnen verwijderd worden. 
 
-*Analyse: state van de todo (via input) en state van de lijst met alle todo's*
+*Analyse vooraf: state van de todo (via input) en state van de lijst met alle todo's. Daarin is er de tekst van de todo en de eigenschap nog bezig of afgewerkt. Het deleten van de todo is een afzonderlijke functie.*
 
 ```js
 import { useState } from 'react';

@@ -253,7 +253,7 @@ function Links() {
 							</a>
 						</td>
 
-						<td>React documentatie dependencies</td>
+						<td>React-app creëren</td>
 					</tr>
 					<tr>
 						<td>
