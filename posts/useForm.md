@@ -36,9 +36,9 @@ npm install react-hook-form
 
 ### De useForm hook
 
-Binnen de functie van de form nemen *useForm* op als een variabele met een object die bestaat uit: {register, handleSubmet, errors}. Wat *useForm* doet is de verschillende states opnemen die anders dienen gedefinieerd te worden voor *register* & *errors*. In *useForm* gaat het enkel over het creëren van de form niet over de validatie.
+Binnen de functie van de form nemen we *useForm* op als een variabele met een object dat bestaat uit: {register, handleSubmet, errors}. Wat *useForm* doet, is de verschillende states opnemen die anders dienen gedefinieerd te worden voor *register* & *errors*. In *useForm* gaat het enkel over het creëren van de form niet over de validatie.
 
-- *register* nemen we op als ref in de *input*, waar dit in een klassiek formulier *onChange* zou zijn
+- *register* nemen we op als *ref* in de *input*, waar dit in een klassiek formulier *onChange* zou zijn
 -  *handleSubmit* nemen we op als *onSubmit* op de *form*
 
 Om iets te doen met de verkregen data - bijvoorbeeld naar de server sturen - wordt de handleSubmit gedefinieerd aan de hand van een onSubmit-functie.
@@ -106,7 +106,7 @@ resolver: yupResolver(schema)});
 
 const onSubmit = (data) => {
 console.log(data)
-// zou bijvoorbeeld ook een fetch kunnen zijn om de data naar een api te sturen 
+// could also be a fetch to send data to an API
 }
 
 return (
@@ -124,7 +124,7 @@ return (
 export default App;
 ```
 
-Om bijvoorbeeld inputs te vergelijken, zoals bij het bevestigen van het paswoord door het nogmaals te laten herhalen kan de volgende syntax gebruikt worden in het schema:
+Om bijvoorbeeld inputs te vergelijken, zoals bij het bevestigen van het paswoord door het paswoord nogmaals te laten herhalen, kan de volgende syntax gebruikt worden in het schema:
 
 ```js
 confirmPassword: yup.string().oneOf([yup.ref('password'), null])
