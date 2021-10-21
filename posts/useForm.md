@@ -2,7 +2,7 @@
 title: useForm & yup 
 excerpt: React-hook voor forms & validatie 
 image: memo_react.jpg
-isFeatured: true
+isFeatured: false
 date: '2021-10-21'
 ---
 
