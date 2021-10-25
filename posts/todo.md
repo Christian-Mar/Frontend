@@ -3,45 +3,36 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-10-20'
+date: '2021-10-25'
 ---
 ### Udemy
 
 - losse delen, zoals hooks, met focus op React
+- Server rendering
 
 ### Syntra 
 
 - Opdracht CSS tegen 21-11-21
-- 'To-do'-app React tegen 25-10-21 - OK 
+- Magazijn-app tegen 07-11-21 (combinatie todo-app & counter)
 
+### Project 
 
-### Notities aanmaken 
-
-- React hooks: useState, useRef, useEffect, useContext
-- useForm (https://www.youtube.com/watch?v=UvH70UkbyfE)
-
-### Onthouden
-
-- _rafce: shortcut om een component aan te maken in next.js/react met arrow-functie en export default onderaan
-
+- Menu interactief (hamburger)
+- Structuur components
+- SurveyJS
+- Styling probleem 20px oplossen (fixed header?)
 
 ### Opzoeken/uitdiepen
 
-- Forms - React useForm
 - SEO
 - Facebook-pixel, Google analytics, ...
 - Verhouding Frontend/Backend
 - AWS
-- Next.js: redirects, rewrites, preview mode, preact, ... (later)
-- Eslint
-- GraphQL
-- Jest of Cypress (testing)?
-- axios/fetch/...
 - Machine-learning (youtube)
 
 ### Targets nu 
 
-- React (& Next.js) - Server rendering React!
+- React (& Next.js) - Server rendering React! -> SEO
 - MongoDB, Mongoose / Strapi  
 
 ### Ideeën en inspiratie
@@ -50,4 +41,5 @@ date: '2021-10-20'
 - Tool ontwikkelen om efficiënter te vergaderen en verslagen te noteren tijdens de vergadering
 - Studeerplanner voor studenten
 - Affiliate website
+- Aanmeldingsmodule receptie/balie -> backend met voldoende fetches
 
