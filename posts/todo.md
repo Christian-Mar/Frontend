@@ -3,21 +3,25 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-10-25'
+date: '2021-11-01'
 ---
 ### Udemy
 
 - losse delen, zoals hooks, met focus op React
-- Server rendering
+
+- React & Firebase (22u)
+- Redux - complete guide sectie 18 & 19 (5u)
+- Express - Steve Griffith (5u)
+- Server rendering React (9u)
 
 ### Syntra 
 
 - Opdracht CSS tegen 21-11-21
-- Magazijn-app tegen 07-11-21 (combinatie todo-app & counter)
+- Terminal -> compiling:             *sass --watch scss:css* 
 
 ### Project 
 
-- Menu interactief (hamburger)
+- Menu interactief (hamburger) ok
 - Structuur components
 - SurveyJS
 - Styling probleem 20px oplossen (fixed header?)
@@ -30,10 +34,13 @@ date: '2021-10-25'
 - AWS
 - Machine-learning (youtube)
 
-### Targets nu 
+### Backends vergelijken 
 
-- React (& Next.js) - Server rendering React! -> SEO
-- MongoDB, Mongoose / Strapi  
+- MongoDB 
+- Strapi
+- Sanity
+- Firebase
+- Faunadb  
 
 ### Ideeën en inspiratie
 

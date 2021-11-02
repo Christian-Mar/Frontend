@@ -3,7 +3,7 @@ title: Oefeningen React
 excerpt: Props, useState, ... .
 image: memo_syntra.jpg
 isFeatured: true
-date: '2021-10-20'
+date: '2021-11-01'
 ---
 
 ## 11/10/2021 Props + useState
