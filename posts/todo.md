@@ -9,39 +9,39 @@ date: '2021-11-06'
 
 *Build Web Apps with React & Firebase*
 
-Introduction 13min - ok 
-React Basics 24 min - ok 
-Using Create-React-App 23min - ok
-useState 45 min - ok 
-Components & Props 45min - ok 
-Styling 25min - ok 
-User Input & Events 44min - ok 
-Fetching Data & useEffect 1u25min
-PROJECT BUILD – memory game 1u2min
-The React Router 1uur
-PROJECT BUILD – Recipe Directory 1u39
-React Context & Reducers 1u6min
-Firebase Firestore 1u6min
-PROJECT BUILD – Finance Tracker (with Firebase) 3u42min
-Firestone Rules 21min
-Building & Deploying 9min
-PROJECT BUILD Project Management Site 5u23min
-React with Firebase Version 9 1u24min
+- Introduction 13min - ok 
+- React Basics 24 min - ok 
+- Using Create-React-App 23min - ok
+- useState 45 min - ok 
+- Components & Props 45min - ok 
+- Styling 25min - ok 
+- User Input & Events 44min - ok 
+- Fetching Data & useEffect 1u25min
+- PROJECT BUILD – memory game 1u2min
+- The React Router 1uur
+- PROJECT BUILD – Recipe Directory 1u39
+- React Context & Reducers 1u6min
+- Firebase Firestore 1u6min
+- PROJECT BUILD – Finance Tracker (with Firebase) 3u42min
+- Firestone Rules 21min
+- Building & Deploying 9min
+- PROJECT BUILD Project Management Site 5u23min
+- React with Firebase Version 9 1u24min
  
 *Next.js by Example*
 
-Getting started 28min
-Routing and Navigation 21min
-Styling 16min
-Loading Data 56min
-Client-side Functionality 34 min
-Deployment 25min
-Next Shop: Setup 52min
-Data Fetching: 1u27min
-Responsive Design and Image Optimization 27min
-Authentication 1u12min
-React Query 43min
-Shopping Cart 37min
+- Getting started 28min - ok 
+- Routing and Navigation 21min
+- Styling 16min - ok 
+- Loading Data 56min
+- Client-side Functionality 34 min
+- Deployment 25min
+- Next Shop: Setup 52min
+- Data Fetching: 1u27min
+- Responsive Design and Image Optimization 27min
+- Authentication 1u12min
+- React Query 43min
+- Shopping Cart 37min
 
 ### Syntra 
 
