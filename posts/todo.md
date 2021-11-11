@@ -3,7 +3,7 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-11-06'
+date: '2021-11-11'
 ---
 ### Udemy
 
@@ -16,7 +16,7 @@ date: '2021-11-06'
 - Components & Props 45min - ok 
 - Styling 25min - ok 
 - User Input & Events 44min - ok 
-- Fetching Data & useEffect 1u25min
+- Fetching Data & useEffect 1u25min (bezig)
 - PROJECT BUILD – memory game 1u2min
 - The React Router 1uur
 - PROJECT BUILD – Recipe Directory 1u39
@@ -45,6 +45,7 @@ date: '2021-11-06'
 
 ### Syntra 
 
+- Oefening useEffect - fetch bitcoin-data
 - Opdracht CSS tegen 21-11-21
 - Terminal -> compiling:             *sass --watch scss:css* 
 
@@ -52,13 +53,14 @@ date: '2021-11-06'
 
 - SurveyJS
 
-### Opzoeken/uitdiepen
+### Opzoeken/uitdiepen/bekijken
 
 - SEO
 - Facebook-pixel, Google analytics, ...
 - Verhouding Frontend/Backend
 - AWS
 - Machine-learning (youtube)?
+- Formspree
 
 ### Backends vergelijken 
 
@@ -78,3 +80,6 @@ date: '2021-11-06'
 - Recruitment module
 - Survey module
 
+### Praktisch
+
+- Linux op oude iMac zetten 

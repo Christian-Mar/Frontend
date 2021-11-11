@@ -1,9 +1,9 @@
 ---
 title: Oefeningen React
-excerpt: Props, useState, ... .
+excerpt: Props, useState, useEffect, ... .
 image: memo_syntra.jpg
 isFeatured: true
-date: '2021-11-01'
+date: '2021-11-11'
 ---
 
 ## 11/10/2021 Props + useState
@@ -337,11 +337,66 @@ const Warehouse = () => {
 				</div>
 			))}
 		</div>
-	);
-}
-
+	)
 export default Warehouse;
 
 ```
 
 Oplossing oefening 4, de volledige code: [Github](https://github.com/Christian-Mar/warehouse)
+
+
+## 08/11/2021 useEffect
+
+*Oefening 5*
+
+Maak een fetch op de koers van de Bitcoin ieder minuut op te halen, die één voor één - onder elkaar - op het scherm komen: 
+
+Code voor update Bitcoin, weliswaar nog aan het upgraden op één lijn, niet telkens een neiuwe lijn:
+
+```js
+import { useState, useEffect } from 'react';
+import './App.css';
+
+function App() {
+    const [price, setPrice] = useState(); //[]
+    
+    
+    
+      useEffect(() => {
+
+      const fetchData = async () => {
+
+        const response = await fetch(
+          "https://api.coindesk.com/v1/bpi/currentprice.json"
+        );
+        const data = await response.json();
+        //console.log(data.bpi.EUR.rate);
+        setPrice(data); 
+        //price.push(data);
+      }
+        fetchData();
+        setInterval(fetchData, 60000);
+       
+    }, []);
+    
+    
+
+    return (
+			<>
+				<div style={{ color: 'DarkBlue', margin: '4rem'}}>
+					Bitcoin = {price?.bpi.EUR.rate} EUR on {price?.time.updated}
+				</div>
+			</>
+		);
+  };
+
+export default App;
+
+/* 
+
+The optional chaining operator ?. permits reading the value of a property located deep within a chain of connected objects without having to expressly validate that each reference in the chain is valid. The ?. operator functions similarly to the . chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
+
+This results in shorter and simpler expressions when accessing chained properties when the possibility exists that a reference may be missing. It can also be helpful while exploring the content of an object when there's no known guarantee as to which properties are required.
+
+*/
+```
