@@ -3,7 +3,7 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-11-11'
+date: '2021-11-14'
 ---
 ### Udemy
 
@@ -16,9 +16,9 @@ date: '2021-11-11'
 - Components & Props 45min - ok 
 - Styling 25min - ok 
 - User Input & Events 44min - ok 
-- Fetching Data & useEffect 1u25min (bezig)
+- Fetching Data & useEffect 1u25min - ok
 - PROJECT BUILD – memory game 1u2min
-- The React Router 1uur
+- The React Router 1uur - ok 
 - PROJECT BUILD – Recipe Directory 1u39
 - React Context & Reducers 1u6min
 - Firebase Firestore 1u6min
@@ -31,9 +31,9 @@ date: '2021-11-11'
 *Next.js by Example*
 
 - Getting started 28min - ok 
-- Routing and Navigation 21min
+- Routing and Navigation 21min - ok
 - Styling 16min - ok 
-- Loading Data 56min
+- Loading Data 56min - ok
 - Client-side Functionality 34 min
 - Deployment 25min
 - Next Shop: Setup 52min
@@ -45,13 +45,13 @@ date: '2021-11-11'
 
 ### Syntra 
 
-- Oefening useEffect - fetch bitcoin-data
-- Opdracht CSS tegen 21-11-21
+- Oefening routing + fetch Covid API - ok 
+- Opdracht CSS tegen 21-11-21 - ok 
 - Terminal -> compiling:             *sass --watch scss:css* 
 
 ### Project 
 
-- SurveyJS
+- SurveyJS?
 
 ### Opzoeken/uitdiepen/bekijken
 
