@@ -3,23 +3,12 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-11-14'
+date: '2021-11-24'
 ---
 ### Udemy
 
 *Build Web Apps with React & Firebase*
 
-- Introduction 13min - ok 
-- React Basics 24 min - ok 
-- Using Create-React-App 23min - ok
-- useState 45 min - ok 
-- Components & Props 45min - ok 
-- Styling 25min - ok 
-- User Input & Events 44min - ok 
-- Fetching Data & useEffect 1u25min - ok
-- PROJECT BUILD – memory game 1u2min
-- The React Router 1uur - ok 
-- PROJECT BUILD – Recipe Directory 1u39
 - React Context & Reducers 1u6min
 - Firebase Firestore 1u6min
 - PROJECT BUILD – Finance Tracker (with Firebase) 3u42min
@@ -30,12 +19,6 @@ date: '2021-11-14'
  
 *Next.js by Example*
 
-- Getting started 28min - ok 
-- Routing and Navigation 21min - ok
-- Styling 16min - ok 
-- Loading Data 56min - ok
-- Client-side Functionality 34 min
-- Deployment 25min
 - Next Shop: Setup 52min
 - Data Fetching: 1u27min
 - Responsive Design and Image Optimization 27min
@@ -46,12 +29,18 @@ date: '2021-11-14'
 ### Syntra 
 
 - Oefening routing + fetch Covid API - ok 
-- Opdracht CSS tegen 21-11-21 - ok 
+- Oefening cost app zonder en/of met FaunaDB
+- Opdracht CSS tegen 21-11-21 - ok -> 8-12-21
 - Terminal -> compiling:             *sass --watch scss:css* 
 
 ### Project 
 
 - SurveyJS?
+- Graphql (youtube) -> FaunaDB?
+
+### Varia
+
+- Leermethode ontwikkelen
 
 ### Opzoeken/uitdiepen/bekijken
 
@@ -80,6 +69,3 @@ date: '2021-11-14'
 - Recruitment module
 - Survey module
 
-### Praktisch
-
-- Linux op oude iMac zetten 
