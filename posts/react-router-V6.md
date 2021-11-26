@@ -6,9 +6,9 @@ isFeatured: false
 date: '2021-11-21'
 ---
 
-## Switch wordt vervangens door Routes
+## Switch wordt vervangen door Routes
 
-Elke Route wordt een *self closing* element.
+Elke Route wordt een *self closing* element en *component* wordt *element*
 
 ```js
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

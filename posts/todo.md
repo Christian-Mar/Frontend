@@ -3,7 +3,7 @@ title: To do's
 excerpt: Deze website, tutorials, Syntra, ... .
 image: memo_todo.png
 isFeatured: true
-date: '2021-11-24'
+date: '2021-11-26'
 ---
 ### Udemy
 
@@ -26,11 +26,13 @@ date: '2021-11-24'
 - React Query 43min
 - Shopping Cart 37min
 
+*graphQL*
+
 ### Syntra 
 
 - Oefening routing + fetch Covid API - ok 
 - Oefening cost app zonder en/of met FaunaDB
-- Opdracht CSS tegen 21-11-21 - ok -> 8-12-21
+- Opdracht CSS tegen 08-12-21 
 - Terminal -> compiling:             *sass --watch scss:css* 
 
 ### Project 
